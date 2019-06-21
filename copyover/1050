@@ -1,0 +1,13 @@
+#OBJECT
+Name         cuerpo a technician~
+ShortDescr   el cuerpo de a technician~
+Description  El cuerpo de A technician yace aquí.~
+Vnum         10
+Room         1050
+Rvnum        1050
+Timer        5
+Cost         -1052
+Values       0 0 5 1 0 0
+End
+
+#END

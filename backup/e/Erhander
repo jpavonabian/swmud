@@ -1,0 +1,270 @@
+#PLAYER
+Name         Erhander~
+Version      5
+Comfreq      100.490~
+Sex          1
+Race         0
+MainAbility  0
+SecondAbility  1
+Languages    -1 -8193
+Toplevel     36
+Pheight      3
+Build        4
+Played       300498
+Ship            ~
+ShipNum         0
+Room         100
+HpManaMove   505 500 0 0 1000 1000
+Force        0 0 2700 2700
+ForceControl 100
+ForceSense   100
+ForceAlter   100
+ForceChance   1
+ForceId      1
+ForceAlign   100
+ForceConverted   0
+ForceType      1
+ForceLvlStatus 3
+ForceSkill   0 50
+ForceSkill   1 52
+ForceSkill   2 50
+ForceSkill   3 0
+ForceSkill   4 50
+ForceSkill   5 0
+ForceSkill   6 0
+ForceSkill   7 51
+ForceSkill   8 50
+ForceSkill   9 50
+ForceSkill   10 50
+ForceSkill   11 50
+ForceSkill   12 0
+ForceSkill   13 0
+ForceSkill   14 0
+ForceSkill   15 50
+ForceSkill   16 54
+ForceSkill   17 50
+ForceSkill   18 50
+ForceSkill   19 0
+ForceSkill   20 50
+ForceSkill   21 50
+ForceSkill   22 0
+ForceSkill   23 50
+Gold         199775530
+Bank         0
+Salary       0
+Ability        0 39 722657 0
+Ability        1 31 451156 0
+Ability        2 30 420500 0
+Ability        3 30 420500 0
+Ability        4 30 417000 0
+Ability        5 30 420500 0
+Ability        6 0 0 0
+Ability        7 31 453000 0
+Ability        8 30 420500 0
+Ability        9 30 436400 0
+Act          574642760
+Position     8
+SavingThrows 0 0 0 0 0
+Alignment    1000
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Rppoints   0
+Restore_time 1517933763
+Mentalstate  0
+Password     ÓP¼–BÜ\Qò)~
+Lastplayed   1518778886
+Bamfin       Erhander aparece lentamente ante ti.~
+Bamfout      Erhander desaparece lentamente.~
+Title         Erhander el humano~
+AuthedBy     Grotans~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+WizInvis     36
+Flags        2048
+PKills       1
+MKills       31
+MDeaths      0
+AttrPerm     10 10 12 11 16 11 11
+AttrMod      0 0 0 0 0 0 0
+Condition    0 48 48 46
+Site         85.137.151.40.dyn.user.ono.com
+Skill        100 'acute_accuracy'
+Skill        100 'acute_damage'
+Skill        100 'add_patrol'
+Skill        100 'alerta'
+Skill        100 'ambidiestro'
+Skill        100 'ambush'
+Skill        100 'apunyalar'
+Skill        100 'asir fuerte'
+Skill        100 'assignpilot'
+Skill        100 'auxiliar'
+Skill        100 'battle_command'
+Skill        100 'berserk'
+Skill        100 'bomb'
+Skill        100 'buscar'
+Skill        100 'cabezazo'
+Skill        100 'cavar'
+Skill        100 'cegar'
+Skill        100 'chandelle'
+Skill        100 'checkbeacons'
+Skill        100 'checkbugs'
+Skill        100 'circle'
+Skill        100 'codecrack'
+Skill        100 'combate espacial 1'
+Skill        100 'combate espacial 2'
+Skill        100 'comunicadores'
+Skill        100 'concentrar fuerzas'
+Skill        100 'danyo incrementado'
+Skill        100 'deception'
+Skill        100 'derribar'
+Skill        100 'desarmar'
+Skill        100 'desinstalarmodulo'
+Skill        100 'disableship'
+Skill        100 'discursito'
+Skill        100 'disguise'
+Skill        100 'disimular'
+Skill        100 'disparar'
+Skill        100 'dominate'
+Skill        100 'dualstab'
+Skill        100 'elite_guard'
+Skill        100 'encarcelar'
+Skill        100 'esconderse'
+Skill        100 'espiar'
+Skill        100 'esquivar'
+Skill        100 'fabricarcomunicador'
+Skill        100 'fabricarcontenedor'
+Skill        100 'fabricardatapad'
+Skill        100 'fabricarenlacedecomunicaciones'
+Skill        100 'fabricargranada'
+Skill        100 'fabricarhoja'
+Skill        100 'fabricarjoya'
+Skill        100 'fabricarlinterna'
+Skill        100 'fabricarmodulo'
+Skill        100 'first aid'
+Skill        100 'forzar'
+Skill        100 'gag'
+Skill        100 'golpe_multiple'
+Skill        100 'hijack'
+Skill        100 'indagar'
+Skill        100 'informes'
+Skill        100 'inner strength'
+Skill        100 'instalarmodulo'
+Skill        100 'lanzar'
+Skill        100 'large spacecraft'
+Skill        100 'limber'
+Skill        100 'makearmor'
+Skill        100 'makebeacon'
+Skill        100 'makeblaster'
+Skill        100 'makebug'
+Skill        100 'makegoggles'
+Skill        100 'makejetpack'
+Skill        100 'makelandmine'
+Skill        100 'makemissile'
+Skill        100 'makepike'
+Skill        100 'makeshield'
+Skill        100 'makeshipbomb '
+Skill        100 'mantenimiento'
+Skill        100 'mass_propeganda'
+Skill        100 'minar'
+Skill        100 'montar'
+Skill        100 'navegacion'
+Skill        100 'naves medias'
+Skill        100 'naves pequenyas'
+Skill        100 'negociar'
+Skill        100 'nullifybeacons'
+Skill        100 'ocultar_huellas'
+Skill        100 'ocultarse'
+Skill        100 'otear'
+Skill        100 'patada'
+Skill        100 'peek'
+Skill        100 'picado'
+Skill        100 'pick ship lock'
+Skill        100 'plantbeacon'
+Skill        100 'plantbug'
+Skill        100 'poison weapon'
+Skill        100 'precision'
+Skill        100 'propeganda'
+Skill        100 'punyetazo'
+Skill        100 'rastrear'
+Skill        100 'reinforcements'
+Skill        100 'removebug'
+Skill        100 'reparar'
+Skill        100 'rescatar'
+Skill        100 'rogar'
+Skill        100 'sabotage'
+Skill        100 'seducir'
+Skill        100 'see masking'
+Skill        100 'segundo ataque'
+Skill        100 'shiprepair'
+Skill        100 'showbeacons'
+Skill        100 'showbugs'
+Skill        100 'silencio'
+Skill        100 'sistemas de armas'
+Skill        100 'sistemas de naves'
+Skill        100 'slicebank'
+Skill        100 'sobornar'
+Skill        100 'space combat 3'
+Skill        100 'special_forces'
+Skill        100 'spice refining'
+Skill        100 'split-s'
+Skill        100 'steal'
+Skill        100 'third attack'
+Skill        100 'tonel'
+Skill        100 'torture'
+Skill        100 'tractor beams'
+Skill        100 'trepar'
+Skill        100 'verificarhuellas'
+Skill        100 'vermodulos'
+Weapon       100 'blasters'
+Weapon       100 'bowcasters'
+Weapon       100 'launchers'
+Weapon       100 'picas de fuerza'
+Weapon       100 'vibrohojas'
+Tongue       10 'adariano'
+Tongue       100 'barabel'
+Tongue       100 'basico'
+Tongue       100 'hapano'
+Killed       209 1
+Killed       1054 5
+Killed       1098 1
+Killed       1060 4
+Killed       204 3
+Killed       1052 4
+Killed       206 12
+Killed       21 1
+MaxColors    90
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 15 10 10 13 7 15 14 14 6 7 11 7 7 14 7 2 6 7 7 9 7 9 1 8 9 1 13 3 15 8 6 12 3 12 9 7 7 10 2 15 15 12 7 8 11 10 8 9 6 11 13 5 5 8 5 7 2 6 
+End
+
+#OBJECT
+Vnum         295
+Level        36
+End
+
+#OBJECT
+Vnum         62
+Level        36
+End
+
+#OBJECT
+Vnum         63
+Level        36
+End
+
+#OBJECT
+Vnum         19026
+Level        36
+Values       12 25 40 6 632 750
+End
+
+#OBJECT
+Vnum         4560
+WearLoc      16
+Level        36
+Values       1000 400 400 3 2525 3000
+End
+
+#END

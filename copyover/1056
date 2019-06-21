@@ -1,0 +1,50 @@
+#OBJECT
+Name         corpse a spaceport security guard~
+ShortDescr   the corpse of a spaceport security guard~
+Description  El cuerpo de A spaceport security guard yace aquí.~
+Vnum         10
+Room         1056
+Rvnum        1056
+Timer        3
+Cost         -1054
+Values       0 0 3 1 0 0
+End
+
+#OBJECT
+Name         corpse a spaceport security guard~
+ShortDescr   the corpse of a spaceport security guard~
+Description  El cuerpo de A spaceport security guard yace aquí.~
+Vnum         10
+Room         1056
+Rvnum        0
+Timer        4
+Cost         -1054
+Values       0 0 4 1 0 0
+End
+
+#OBJECT
+Name         corpse a spaceport security guard~
+ShortDescr   the corpse of a spaceport security guard~
+Description  El cuerpo de A spaceport security guard yace aquí.~
+Vnum         10
+Room         1056
+Rvnum        0
+Timer        5
+Cost         -1054
+Values       0 0 5 1 0 0
+End
+
+#OBJECT
+Count        2
+Name         corpse a spaceport security guard~
+ShortDescr   the corpse of a spaceport security guard~
+Description  The corpse of a spaceport security guard lies here.~
+Vnum         10
+Room         1056
+Rvnum        0
+Timer        6
+Cost         -1054
+Values       0 0 6 1 0 0
+End
+
+#END

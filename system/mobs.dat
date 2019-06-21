@@ -1,0 +1,378 @@
+#MOBILE
+Vnum	1
+Level   37
+Gold	10000
+Room	0
+HpManaMove   381 381 0 0 1000 1000
+Position 8
+Flags 262147
+AffectedBy   4194856
+EndMobile
+
+#MOBILE
+Vnum	2
+Level   51
+Gold	10000
+Room	0
+HpManaMove   31575 31575 0 0 1000 1000
+Position 8
+Flags 3
+AffectedBy   40
+EndMobile
+
+#MOBILE
+Vnum	131
+Level   35
+Gold	0
+Room	0
+HpManaMove   1860 1860 0 0 1000 1000
+Position 8
+Flags 3
+AffectedBy   4194304
+EndMobile
+
+#MOBILE
+Vnum	126
+Level   1
+Gold	0
+Room	0
+HpManaMove   15 15 0 0 1000 1000
+Position 8
+Flags 67109379
+AffectedBy   4194304
+EndMobile
+
+#MOBILE
+Vnum	116
+Level   24
+Gold	0
+Room	0
+HpManaMove   970 970 0 0 1000 1000
+Position 8
+Flags 1049603
+AffectedBy   0
+EndMobile
+
+#MOBILE
+Vnum	117
+Level   1
+Gold	0
+Room	0
+HpManaMove   5940 5940 0 0 1000 1000
+Position 8
+Flags 515
+AffectedBy   0
+EndMobile
+
+#MOBILE
+Vnum	118
+Level   16
+Gold	10
+Room	0
+HpManaMove   25 25 0 0 1000 1000
+Position 8
+Flags 3
+AffectedBy   0
+#OBJECT
+Vnum         135
+WearLoc      12
+Level        14
+Values       25 -15 0 0 0 0
+End
+
+EndMobile
+
+#MOBILE
+Vnum	127
+Level   15
+Gold	0
+Room	0
+HpManaMove   162 162 0 0 1000 1000
+Position 8
+Flags 1049603
+AffectedBy   4194304
+EndMobile
+
+#MOBILE
+Vnum	120
+Level   25
+Gold	0
+Room	152
+HpManaMove   285 285 0 0 1000 1000
+Position 8
+Flags 1
+AffectedBy   0
+EndMobile
+
+#MOBILE
+Vnum	119
+Level   30
+Gold	0
+Room	0
+HpManaMove   342 342 0 0 1000 1000
+Position 8
+Flags 1049603
+AffectedBy   4194304
+EndMobile
+
+#MOBILE
+Vnum	121
+Level   34
+Gold	0
+Room	0
+HpManaMove   336 336 0 0 1000 1000
+Position 8
+Flags 515
+AffectedBy   0
+EndMobile
+
+#MOBILE
+Vnum	122
+Level   1
+Gold	0
+Room	0
+HpManaMove   232 232 0 0 1000 1000
+Position 8
+Flags 134217731
+AffectedBy   0
+EndMobile
+
+#MOBILE
+Vnum	123
+Level   1
+Gold	0
+Room	0
+HpManaMove   100 100 0 0 1000 1000
+Position 8
+Flags 3
+AffectedBy   0
+#OBJECT
+Vnum         152
+Level        1
+Values       12 5 5 6 2000 2000
+End
+
+EndMobile
+
+#MOBILE
+Vnum	124
+Level   31
+Gold	0
+Room	0
+HpManaMove   1550 1550 0 0 1000 1000
+Position 8
+Flags 1050115
+AffectedBy   4194304
+EndMobile
+
+#MOBILE
+Vnum	132
+Level   30
+Gold	0
+Room	0
+HpManaMove   330 330 0 0 1000 1000
+Position 8
+Flags 3
+AffectedBy   0
+#OBJECT
+Vnum         133
+Timer        20
+Values       20 20 0 0 0 0
+End
+
+#OBJECT
+Vnum         134
+Values       10 10 0 0 0 0
+End
+
+#OBJECT
+Vnum         149
+End
+
+#OBJECT
+Vnum         150
+Values       10 10 10 0 0 0
+End
+
+#OBJECT
+Vnum         151
+Values       1000 0 0 0 0 0
+End
+
+EndMobile
+
+#MOBILE
+Vnum	150
+Level   16
+Gold	0
+Room	0
+HpManaMove   177 177 0 0 1000 1000
+Position 8
+Flags 1050115
+AffectedBy   0
+EndMobile
+
+#MOBILE
+Vnum	125
+Level   11
+Gold	0
+Room	0
+HpManaMove   104 104 0 0 1000 1000
+Position 8
+Flags 1050115
+AffectedBy   4194304
+EndMobile
+
+#MOBILE
+Vnum	900
+Level   1
+Gold	0
+Room	900
+HpManaMove   17 17 0 0 1000 1000
+Position 8
+Flags 1
+AffectedBy   0
+EndMobile
+
+#MOBILE
+Vnum	901
+Level   11
+Gold	0
+Room	0
+HpManaMove   118 118 0 0 1000 1000
+Position 8
+Flags 67
+AffectedBy   0
+#OBJECT
+Vnum         134
+Values       10 10 0 0 0 0
+End
+
+#OBJECT
+Vnum         133
+Timer        20
+Values       20 20 0 0 0 0
+End
+
+#OBJECT
+Vnum         151
+Values       1000 0 0 0 0 0
+End
+
+EndMobile
+
+#MOBILE
+Vnum	901
+Level   11
+Gold	0
+Room	0
+HpManaMove   118 118 0 0 1000 1000
+Position 8
+Flags 67
+AffectedBy   0
+#OBJECT
+Vnum         133
+Timer        20
+Values       20 20 0 0 0 0
+End
+
+#OBJECT
+Vnum         134
+Values       10 10 0 0 0 0
+End
+
+#OBJECT
+Vnum         151
+Values       1000 0 0 0 0 0
+End
+
+EndMobile
+
+#MOBILE
+Vnum	901
+Level   9
+Gold	0
+Room	0
+HpManaMove   116 116 0 0 1000 1000
+Position 8
+Flags 67
+AffectedBy   0
+#OBJECT
+Vnum         151
+Values       1000 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         134
+Values       10 10 0 0 0 0
+End
+
+#OBJECT
+Vnum         133
+Timer        20
+Values       20 20 0 0 0 0
+End
+
+EndMobile
+
+#MOBILE
+Vnum	901
+Level   10
+Gold	0
+Room	0
+HpManaMove   102 102 0 0 1000 1000
+Position 8
+Flags 67
+AffectedBy   0
+#OBJECT
+Vnum         151
+Values       1000 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         134
+Values       10 10 0 0 0 0
+End
+
+#OBJECT
+Vnum         133
+Timer        20
+Values       20 20 0 0 0 0
+End
+
+EndMobile
+
+#MOBILE
+Vnum	999
+Level   1
+Gold	0
+Room	999
+HpManaMove   11 11 0 0 1000 1000
+Position 8
+Flags 1
+AffectedBy   0
+EndMobile
+
+#MOBILE
+Vnum	126
+Level   1
+Gold	0
+Room	0
+HpManaMove   105 105 0 0 1000 1000
+Position 8
+Flags 67109379
+AffectedBy   4194304
+EndMobile
+
+#MOBILE
+Vnum	119
+Level   31
+Gold	0
+Room	0
+HpManaMove   336 336 0 0 1000 1000
+Position 8
+Flags 1049603
+AffectedBy   4194304
+EndMobile
+
+#END

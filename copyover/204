@@ -1,0 +1,25 @@
+#OBJECT
+Name         corpse a spaceport security guard~
+ShortDescr   the corpse of a spaceport security guard~
+Description  el cuerpo de A spaceport security guard pronto desaparecerá.~
+Vnum         10
+Room         204
+Rvnum        204
+Timer        1
+Cost         -204
+Values       0 0 1 1 0 0
+End
+
+#OBJECT
+Name         corpse a spaceport security guard~
+ShortDescr   the corpse of a spaceport security guard~
+Description  el cuerpo de A spaceport security guard yace aquí.~
+Vnum         10
+Room         204
+Rvnum        0
+Timer        2
+Cost         -204
+Values       0 0 2 1 0 0
+End
+
+#END

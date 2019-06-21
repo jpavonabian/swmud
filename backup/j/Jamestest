@@ -1,0 +1,100 @@
+#PLAYER
+Name         Jamestest~
+Version      5
+Comfreq      502.207~
+Sex          1
+Race         0
+MainAbility  0
+SecondAbility  8
+Languages    -1 1
+Toplevel     33
+Pheight      3
+Build        4
+Played       1232
+Ship            ~
+ShipNum         0
+Room         100
+HpManaMove   355 500 0 0 1000 1000
+Force        0 0 0 0
+ForceControl 0
+ForceSense   0
+ForceAlter   0
+ForceChance   0
+ForceId      0
+ForceAlign   0
+ForceConverted   0
+ForceType      0
+ForceLvlStatus 0
+ForceSkill   0 0
+ForceSkill   1 0
+ForceSkill   2 0
+ForceSkill   3 0
+ForceSkill   4 0
+ForceSkill   5 0
+ForceSkill   6 0
+ForceSkill   7 0
+ForceSkill   8 0
+ForceSkill   9 0
+ForceSkill   10 0
+ForceSkill   11 0
+ForceSkill   12 0
+ForceSkill   13 0
+ForceSkill   14 0
+ForceSkill   15 0
+ForceSkill   16 0
+ForceSkill   17 0
+ForceSkill   18 0
+ForceSkill   19 0
+ForceSkill   20 0
+ForceSkill   21 0
+ForceSkill   22 0
+ForceSkill   23 0
+Gold         0
+Bank         0
+Salary       0
+Ability        0 30 420500 0
+Ability        1 30 420500 0
+Ability        2 30 420500 0
+Ability        3 30 420500 0
+Ability        4 30 420500 0
+Ability        5 30 420500 0
+Ability        6 30 420500 0
+Ability        7 30 420500 0
+Ability        8 30 420500 0
+Ability        9 30 420500 0
+Act          570429000
+Position     8
+SavingThrows 0 0 0 0 0
+Alignment    0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Rppoints   0
+Mentalstate  0
+Password     lÅ0ƒ3pÃ‰|\Ü"p~
+Lastplayed   1519092384
+Title         Jamestest el Humano~
+AuthedBy     Grotans~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+WizInvis     33
+Flags        0
+MKills       1
+MDeaths      0
+AttrPerm     14 17 11 16 12 16 18
+AttrMod      0 0 0 0 0 0 0
+Condition    0 43 36 10
+Site         69-112-194-190.cab.prima.net.ar
+Skill        25 'navegacion'
+Skill        25 'naves pequenyas'
+Skill        25 'otear'
+Skill        25 'sistemas de naves'
+Tongue       100 'basico'
+Killed       118 1
+MaxColors    90
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 15 10 10 13 7 15 14 14 6 7 11 7 7 14 7 2 6 7 7 9 7 9 1 8 9 1 13 3 15 8 6 12 3 12 9 7 7 10 2 15 15 12 7 8 11 10 8 9 6 11 13 5 5 8 5 7 2 6 
+End
+
+#END

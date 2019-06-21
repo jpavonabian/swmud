@@ -1,0 +1,20 @@
+#OBJECT
+Name         corpse a trandoshan saboteur~
+ShortDescr   the corpse of a trandoshan saboteur~
+Description  The corpse of A trandoshan saboteur lies here.~
+Vnum         10
+Room         7667
+Rvnum        7667
+Timer        3
+Cost         -7668
+Values       0 0 3 1 0 0
+End
+
+#OBJECT
+Nest         1
+ShortDescr   50 credits~
+Vnum         3
+Values       50 0 0 0 0 0
+End
+
+#END

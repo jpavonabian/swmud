@@ -1,0 +1,77 @@
+#OBJECT
+Name         corpse A Imperial Guard~
+ShortDescr   the corpse of A Imperial Guard~
+Description  el cuerpo de A imperial guard pronto desaparecerá.~
+Vnum         10
+Room         1137
+Rvnum        1137
+Timer        1
+Cost         -1154
+Values       0 0 1 1 0 0
+End
+
+#OBJECT
+Nest         1
+ShortDescr   100 credits~
+Vnum         3
+Values       100 0 0 0 0 0
+End
+
+#OBJECT
+Name         corpse A Imperial Guard~
+ShortDescr   the corpse of A Imperial Guard~
+Description  el cuerpo de A imperial guard pronto desaparecerá.~
+Vnum         10
+Room         1137
+Rvnum        1137
+Timer        1
+Cost         -1154
+Values       0 0 1 1 0 0
+End
+
+#OBJECT
+Nest         1
+ShortDescr   100 credits~
+Vnum         3
+Values       100 0 0 0 0 0
+End
+
+#OBJECT
+Name         corpse A Imperial Guard~
+ShortDescr   the corpse of A Imperial Guard~
+Description  el cuerpo de A imperial guard pronto desaparecerá.~
+Vnum         10
+Room         1137
+Rvnum        1137
+Timer        1
+Cost         -1154
+Values       0 0 1 1 0 0
+End
+
+#OBJECT
+Nest         1
+ShortDescr   100 credits~
+Vnum         3
+Values       100 0 0 0 0 0
+End
+
+#OBJECT
+Name         corpse A Imperial Guard~
+ShortDescr   the corpse of A Imperial Guard~
+Description  el cuerpo de A imperial guard pronto desaparecerá.~
+Vnum         10
+Room         1137
+Rvnum        1137
+Timer        1
+Cost         -1154
+Values       0 0 1 1 0 0
+End
+
+#OBJECT
+Nest         1
+ShortDescr   100 credits~
+Vnum         3
+Values       100 0 0 0 0 0
+End
+
+#END

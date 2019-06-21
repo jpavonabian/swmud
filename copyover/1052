@@ -1,0 +1,25 @@
+#OBJECT
+Name         cuerpo a female citizen~
+ShortDescr   el cuerpo de a female citizen~
+Description  el cuerpo de A female citizen pronto desaparecerá.~
+Vnum         10
+Room         1052
+Rvnum        1052
+Timer        1
+Cost         -1060
+Values       0 0 1 1 0 0
+End
+
+#OBJECT
+Name         cuerpo a female citizen~
+ShortDescr   el cuerpo de a female citizen~
+Description  El cuerpo de a female citizen está aquí tirado.~
+Vnum         10
+Room         1052
+Rvnum        1052
+Timer        6
+Cost         -1060
+Values       0 0 6 1 0 0
+End
+
+#END

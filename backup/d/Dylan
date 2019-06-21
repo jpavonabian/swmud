@@ -1,0 +1,99 @@
+#PLAYER
+Name         Dylan~
+Version      5
+Comfreq      675.592~
+Sex          1
+Race         0
+MainAbility  0
+SecondAbility  1
+Languages    -1 1
+Toplevel     36
+Pheight      0
+Build        2
+Played       11573
+Ship            ~
+ShipNum         0
+Room         1050
+HpManaMove   500 500 0 0 1000 1000
+Force        0 0 2700 2700
+ForceControl 100
+ForceSense   100
+ForceAlter   100
+ForceChance   1
+ForceId      1
+ForceAlign   100
+ForceConverted   0
+ForceType      1
+ForceLvlStatus 3
+ForceSkill   0 50
+ForceSkill   1 53
+ForceSkill   2 50
+ForceSkill   3 0
+ForceSkill   4 50
+ForceSkill   5 0
+ForceSkill   6 0
+ForceSkill   7 50
+ForceSkill   8 50
+ForceSkill   9 50
+ForceSkill   10 50
+ForceSkill   11 50
+ForceSkill   12 0
+ForceSkill   13 0
+ForceSkill   14 0
+ForceSkill   15 50
+ForceSkill   16 50
+ForceSkill   17 50
+ForceSkill   18 50
+ForceSkill   19 0
+ForceSkill   20 50
+ForceSkill   21 50
+ForceSkill   22 0
+ForceSkill   23 50
+Gold         10000
+Bank         0
+Salary       0
+Ability        0 1 0 0
+Ability        1 1 0 0
+Ability        2 1 0 0
+Ability        3 1 0 0
+Ability        4 1 0 0
+Ability        5 1 0 0
+Ability        6 0 0 0
+Ability        7 1 0 0
+Ability        8 1 0 0
+Ability        9 1 0 0
+Act          570427976
+Position     8
+SavingThrows 0 0 0 0 0
+Alignment    0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Rppoints   0
+Mentalstate  0
+Password     ÓP¼–BÜ\Qò)~
+Lastplayed   1518940475
+Title         Dylan el Humano~
+AuthedBy     Grotans~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+WizInvis     36
+Flags        0
+MKills       0
+MDeaths      0
+AttrPerm     14 9 8 10 15 8 10
+AttrMod      0 0 0 0 0 0 0
+Condition    0 48 48 10
+Site         85.137.151.40.dyn.user.ono.com
+Skill        25 'navegacion'
+Skill        25 'naves pequenyas'
+Skill        25 'otear'
+Skill        25 'sistemas de naves'
+Tongue       100 'basico'
+MaxColors    90
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 15 10 10 13 7 15 14 14 6 7 11 7 7 14 7 2 6 7 7 9 7 9 1 8 9 1 13 3 15 8 6 12 3 12 9 7 7 10 2 15 15 12 7 8 11 10 8 9 6 11 13 5 5 8 5 7 2 6 
+End
+
+#END

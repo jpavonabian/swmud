@@ -1,0 +1,99 @@
+#PLAYER
+Name         Thelaerion~
+Version      5
+Comfreq      642.791~
+Sex          1
+Race         0
+MainAbility  8
+SecondAbility  3
+Languages    -1 1
+Toplevel     35
+Pheight      0
+Build        4
+Played       18654
+Ship            ~
+ShipNum         0
+Room         100
+HpManaMove   500 500 0 0 1000 1000
+Force        0 0 0 0
+ForceControl 0
+ForceSense   0
+ForceAlter   0
+ForceChance   0
+ForceId      0
+ForceAlign   0
+ForceConverted   0
+ForceType      0
+ForceLvlStatus 0
+ForceSkill   0 0
+ForceSkill   1 0
+ForceSkill   2 0
+ForceSkill   3 0
+ForceSkill   4 0
+ForceSkill   5 0
+ForceSkill   6 0
+ForceSkill   7 0
+ForceSkill   8 0
+ForceSkill   9 0
+ForceSkill   10 0
+ForceSkill   11 0
+ForceSkill   12 0
+ForceSkill   13 0
+ForceSkill   14 0
+ForceSkill   15 0
+ForceSkill   16 0
+ForceSkill   17 0
+ForceSkill   18 0
+ForceSkill   19 0
+ForceSkill   20 0
+ForceSkill   21 0
+ForceSkill   22 0
+ForceSkill   23 0
+Gold         9948
+Bank         0
+Salary       0
+Ability        0 1 0 0
+Ability        1 1 0 0
+Ability        2 1 0 0
+Ability        3 1 0 0
+Ability        4 1 0 0
+Ability        5 1 0 0
+Ability        6 0 0 0
+Ability        7 1 0 0
+Ability        8 1 0 0
+Ability        9 1 0 0
+Act          570426184
+Position     5
+SavingThrows 0 0 0 0 0
+Alignment    0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Rppoints   0
+Mentalstate  0
+Password     R2yžLŽn’ùyóÖM~
+Lastplayed   1517752384
+Title         Thelaerion the Human~
+AuthedBy     Grotans~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+WizInvis     35
+Flags        0
+MKills       0
+MDeaths      0
+AttrPerm     8 10 11 12 15 14 15
+AttrMod      0 0 0 0 0 0 0
+Condition    0 48 48 10
+Site         (Link-Dead)
+Skill        25 'navigation'
+Skill        25 'scan'
+Skill        25 'ship systems'
+Skill        25 'small spacecraft'
+Tongue       100 'basico'
+MaxColors    90
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 15 10 10 13 7 15 14 14 6 7 11 7 7 14 7 2 6 7 7 9 7 9 1 8 9 1 13 3 15 8 6 12 3 12 9 7 7 10 2 15 15 12 7 8 11 10 8 9 6 11 13 5 5 8 5 7 2 6 
+End
+
+#END

@@ -1,0 +1,13 @@
+#OBJECT
+Name         cuerpo A Guild Trooper~
+ShortDescr   el cuerpo de A Guild Trooper~
+Description  El cuerpo de A guild trooper yace aquí.~
+Vnum         10
+Room         235
+Rvnum        235
+Timer        5
+Cost         -236
+Values       0 0 5 1 0 0
+End
+
+#END

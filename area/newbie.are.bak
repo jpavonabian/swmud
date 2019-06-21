@@ -1,0 +1,2522 @@
+#AREA   Newbie1~
+
+
+
+#AUTHOR Aliane~
+
+#RANGES
+0 36 0 36
+$
+
+#RESETMSG La nave altera ligeramente su curso de vuelo.~
+
+#FLAGS
+0 1
+
+#ECONOMY -1 996837450
+
+#MOBILES
+#115
+low_mob~
+a newly created low_mob~
+Some god abandoned a newly created low_mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#116
+General Rock~
+General Rock~
+El General Rock está aquí sentado tras su escritorio.
+~
+El General Rock mide alrededor de 6.3 y está sonriendo de oreja
+a oreja. Lleva el uniforme estándar de los generales imperiales.Una
+vívida cicatriz sobresale en su mejilla izquierda que se extiende
+desde justo debajo del ojo hasta el mentón. Su cuerpo es muy
+musculoso.
+~
+1049603 0 0 Z
+25 0 37 20d45+250 15d50+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+5 5 0 0 72 0 0 0
+0 0 0 0 0 0 0 0
+#117
+Lowbacca~
+Lowbacca~
+Lowbacca está aquí de pie trabajando en la máquina de pesas.
+~
+Lowbacca es un alto wookie de piel marrón. Empuña un arco de energía. Gruñe y te mira, mostrando los colmillos.
+~
+515 0 0 Z
+1 0 0 60d150+0 15d40+0
+0 0
+8 8 0
+24 18 18 24 23 10 10
+0 0 0 0 0
+1 0 0 0 3 2 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#118
+ewok~
+un ewok~
+Un ewok está aquí entrenando sus músculos.
+~
+Es bajo y de pelo marrón. Lleva puesto un taparrabos y parece
+bastante débil. Al mirarlo arruga su nariz hacia ti con curiosidad.
+~
+3 0 0 Z
+15 0 62 25d25+0 2d3+6
+10 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+10 0 0 0 129 128 0
+3 3 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog ~
+decir ¡Te voy a matar!
+~
+|
+#119
+Dorsk~
+Dorsk~
+Dorsk está sentado tras su escritorio.
+~
+Es alto y parece bastante peligroso si juzgamos su aspecto. Empuña un bláster.
+~
+1049603 4194304 0 Z
+30 0 25 6d10+300 3d4+2
+0 0
+8 8 1
+10 10 10 25 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+6 6 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+decir Vaya, pensaba que eras ese tonto de Drall.
+decir ¡Te pagaré 150 créditos por su cabeza!
+~
+> give_prog cabeza Drall~
+decir ¿has matado a ese tonto?
+decir Buen trabajo.
+mpwithdraw 150
+dar 150 creditos $n
+mpat 101 dejar cabeza
+mpat 101 mppurge
+mpadvance $n 3 250
+~
+|
+#120
+Drall~
+Drall~
+Drall está aquí tratando de pasar inadvertido.
+~
+Empuña una vibrohoja como arma. Es un humano bastante pálido. Parece débil.
+~
+1 0 0 Z
+25 0 37 5d10+250 2d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+1 0 0 0 3 2 0
+5 5 0 32 0 0 0 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+mpoload 118
+~
+|
+#121
+El Comandante Targ~
+El Comandante Targ~
+ElComandante Targ está aquí sentado, vigilando. 
+~
+El comandante es de raza Noghri. No es alguien a quien te gustaría enfrentarte. Destacan sus grandes músculos.
+~
+515 0 0 Z
+33 0 17 6d10+330 3d4+2
+0 0
+8 8 1
+10 20 20 20 10 10 10
+0 0 0 0 0
+6 0 0 0 65 64 0
+6 6 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#122
+Comerciante de armas de contrabando~
+Un comerciante de armas de contrabando~
+Un comerciante de armas de contrabando está aquí de pie.
+~
+Este es un hombre humano de aproximadamente 6 pies de altura. Tiene
+el pelo castaño arena, ojos grises y una nariz grande. Sonríe
+peligrosamente y abre su chaleco para revelar una variedad de
+armas de aspecto muy peligroso.
+~
+134217731 0 0 Z
+1 0 0 4d10+220 2d4+4
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+5 4 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+decir Hola $n.
+decir vendo armas. ¿Te interesa alguna?
+~
+> give_prog dl-2 blaster pistol~
+emo sonríe alegremente.
+decir buen trabajo. Toma un pequeño premio.
+mpwithdraw 50
+dar 50 creditos $n
+mpadvance $n 4 50
+mpat 101 dejar blaster
+mpat 101 mppurge
+~
+|
+#123
+Barlan~
+Barlan~
+Barlan mira a su alrededor ansiosamente.
+~
+Barlan es un humano pequeño y bastante regordete. Tiene la piel
+ligeramente bronceada y el pelo rubio claro. Sus ojos son de
+un profundo tono azul. Lleva una camisa verde y un par de pantalones
+negros 
+~
+3 0 0 Z
+1 0 0 25d10+0 10d15+0
+0 0
+8 8 1
+20 10 10 20 20 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+decir Tengo que entregar este bláster al vendedor de armas. 
+decir pero me preocupa el comandante Targ.
+decir Aléjate de mí. ¡No entregaré el bláster!
+~
+|
+#124
+Molbakka~
+Molbakka~
+Molbakka trabaja en una terminal.
+~
+Molbakka es un wookiee alto y largo. Tiene el pelo marrón oscuro
+y los ojos negros. Sonríe maliciosamente mientras te mira por
+encima del hombro mientras sigue trabajando en su terminal.
+~
+1050115 4194304 0 Z
+30 0 25 50d40+300 25d40+2
+0 0
+8 8 1
+10 10 10 10 20 10 10
+0 0 0 0 0
+1 0 0 0 3 2 0
+6 6 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+decir soy un buen hacker...
+decir puedo enseñarte algunas de mis habilidades.
+decir También puedo darte algo útil.
+decir A saber: Una caja de herramientas, duraplástico, baterías, cristales, circuitos,
+decir lentes, duracero, y superconductores. 
+~
+> speech_prog comunicador~
+decir Necesitarás una caja de herramientas, algo de duraplástico, una batería, un cristal, y
+decir un circuito.
+~
+> speech_prog datapad~
+decir Necesitarás una caja de herramientas, algo de duraplástico, una batería, un superconductor,
+decir un circuito y una lente.
+~
+> speech_prog caja~
+mpoload 141
+dar caja $n
+~
+> speech_prog duraplastico~
+mpoload 148
+dar durap $n
+~
+> speech_prog bateria~
+mpoload 139
+dar bate $n
+~
+> speech_prog cristal~
+mpoload 138
+dar crista $n
+~
+> speech_prog circuito~
+mpoload 140
+dar circuit $n
+~
+> speech_prog lente~
+mpoload 143
+dar lente $n
+~
+> speech_prog duracero~
+mpoload 146
+dar dura $n
+~
+> speech_prog superconductor~
+mpoload 147
+dar superconductor $n
+~
+|
+#125
+Almirante Coran~
+Almirante Coran~
+El almirante Coran está aquí sentado detrás de su escritorio.
+~
+~
+1050115 4194304 0 Z
+10 0 75 2d10+100 1d4+2
+0 0
+8 8 0
+10 25 25 20 10 20 10
+0 0 0 0 0
+0 0 0 0 1 1 3
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+decir hola, ¿Como te puedo ayudar?
+~
+|
+#126
+Droide protocolo~
+Un droide de protocolo~
+Un droide de protocolo está aquí repartiendo comida y bebida
+~
+C-7DC es un droide de protocolo dorado. Tiene forma humana y
+parece tener unas habilidades motoras bastante buenas.
+~
+67109379 4194304 0 Z
+1 0 0 15d10+0 3d10+0
+0 0
+8 8 0
+10 10 10 10 10 25 10
+0 0 0 0 0
+0 0 0 0 1 1 2
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpecho Un droide de protocolo dice, "Saludos, $n. Mi nombre es C-7DC.
+mpecho Soy el operador del turboascensor.  Si necesitas una bebida o algo que comer
+mpecho solo tienes que pedirlo."
+~
+> speech_prog comida~
+decir Aquí tienes.
+mpoload 133
+dar ra $n
+decir Disfruta.
+~
+> speech_prog bebida~
+mpoload 134
+dar can $n
+decir Disfruta.
+~
+|
+#127
+ingeniero~
+Un ingeniero~
+Un ingeniero está aquí, examinando su inventario
+~
+~
+1049603 4194304 0 Z
+15 0 62 3d10+150 1d4+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+3 3 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+say Si necesitas que te preste un objeto simplemente di su nombre.
+say Los objetos son: Aguja, Tela, Cristal, Circuito, Batería, y Caja de herramientas.
+say También te puedo enseñar a hacer un contenedor o un comunicador.
+say Quizás también te interese visitar a mi amigo todo al oeste de aquí.
+~
+> speech_prog aguja~
+mpoload 136
+dar aguja $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog tela~
+mpoload 137
+dar tela $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog cristal~
+mpoload 138
+dar cristal $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog bateria~
+mpoload 139
+dar bateria $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog circuito~
+mpoload 140
+dar circuito $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog caja~
+mpoload 141
+dar caja $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog contenedor~
+decir necesitas algo de tela, ilo y aguja.
+~
+> speech_prog comunicador~
+decir necesitas un cristal, una caja de herramientas y un circuito.
+~
+|
+#128
+Ingeniero~
+Un ingeniero~
+Un ingeniero está aquí examinando su inventario.
+~
+~
+1074791427 4194304 0 Z
+1 0 0 100d10+0 10d5+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> speech_prog vibrohoja~
+decir para hacer una vibrohoja necesitarás un horno, una caja de herramientas y duracero.
+~
+> speech_prog linterna~
+decir Para hacer una linterna necesitarás una batería, un circuito, una caja de herramientas,
+decir productos químicos, y una lente.
+~
+> speech_prog horno~
+mpoload 142
+dar horno $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog lente~
+mpoload 143
+dar lente $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog circuito~
+mpoload 140
+dar circuito $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog bateria~
+mpoload 139
+dar bateria $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog caja~
+mpoload 141
+dar caja $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog producto~
+mpoload 145
+dar producto $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> speech_prog duracero~
+mpoload 146
+dar duracero $n
+mpat 102 dejar todo
+mpat 102 mppurge
+~
+> greet_prog 100~
+decir si quieres algún objeto di su nombre.
+decir los objetos son: circuito, batería, caja de herramientas, horno, lente, productos,
+decir o duracero.
+decir quizás quieras visitar a mi amigo todo al este de aquí. 
+~
+|
+#129
+Dorak~
+Dorak~
+Dorak está aquí estudiando un libro.
+~
+~
+1074791427 0 0 Z
+15 0 62 15d25+150 15d25+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 -8193 -8193 0
+3 3 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#130
+a student~
+A Student~
+A Student wonders around the academy looking lost
+~
+~
+1 0 0 Z
+10 0 75 2d10+100 1d4+2
+0 0
+8 8 1
+25 10 10 20 20 10 10
+0 0 0 0 0
+0 0 0 0 1 1 2
+2 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#131
+Grotans~
+Grotans~
+Grotans está aquí aceptando nuevos jugadores.
+~
+~
+3 4194304 0 Z
+36 0 10 300d15+360 45d100+2
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 -532481 -532481 0
+7 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+decir Saludos $n, te doy la bienvenida al mud
+decir Mi nombre es Grotans. Déjame darte un par de consejos
+decir Este juego es un juego de rol. Deberás interpretar a tu personaje.
+decir Deberías familiarizarte con el comando ayuda.
+decir Continúa por el corredor hacia el turboascensor.
+decir ¡Disfruta del juego!
+~
+|
+#132
+gerente~
+El gerente de la tienda~
+El gerente de la tienda está aquí ayudando a los clientes.
+~
+~
+3 0 0 Z
+30 0 25 6d10+300 3d4+2
+0 0
+8 8 1
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+6 6 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+,sonríe.
+decir Hola, has llegado a la tienda del novato.
+decir Aquí vendemos objetos esenciales para sobrevivir en la galaxia.
+decir Siéntete libre de echar un vistazo.
+,vuelve a sonreír.
+~
+|
+#133
+Senator Korvin~
+Senator Korvin~
+A man dressed in a suit is standing in the corner of the room
+~
+~
+1073741827 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#150
+Coronel Jentric~
+El coronel Jentric~
+El coronel Jentric está enfrente de ti.
+~
+~
+1050115 0 0 Z
+15 0 62 3d10+150 1d4+2
+0 0
+8 8 1
+15 20 20 10 20 15 10
+0 0 0 0 0
+0 0 0 0 1 1 2
+3 3 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#190
+hi_mob~
+a newly created hi_mob~
+Some god abandoned a newly created hi_mob here.
+~
+~
+1 0 0 Z
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+10 10 10 10 10 10 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#115
+lista~
+una lista~
+Una lista está pegada a una de las paredes.~
+~
+13 3 0
+0 0 0 0
+1 0 0
+E
+lista~
+[ 1] Literas
+[ 2] Entrenamiento de combate
+[ 3] Ingeniería
+[ 4] Cazarecompensas
+[ 5] Contrabandistas
+[ 6] Hackers
+[ 7] Pilotos
+[ 8] Idiomas
+[ 9] Hangares
+~
+#116
+Mesa tallada~
+Una mesa tallada~
+Una mesa bellamente tallada está aquí.~
+~
+12 0 0
+0 0 0 0
+500 1000 100
+#117
+maquina~
+Una máquina de pesas~
+Una máquina de pesas reposa en la esquina de la habitación.~
+~
+12 2 0
+0 0 0 0
+1 0 0
+#118
+cabeza Drall~
+la cabeza de Drall~
+La cabeza de Drall está aquí.~
+~
+13 0 1
+0 0 0 0
+3 0 0
+#119
+pistola blaster pequenyo pequeño~
+un bláster pequeño~
+Un pequeño bláster está aquí tirado~
+~
+5 16 8193
+0 5 15 6
+2 50 5
+#120
+Ordenador central~
+Ordenador central~
+Un ordenador central está aquí.~
+~
+12 0 0
+0 0 0 0
+200 5000 500
+#121
+gafas duracero~
+unas gafas de duracero~
+Unas gafas de duracero están aquí~
+~
+9 0 129
+0 -10 0 0
+2 3 0
+A
+18 1
+A
+18 1
+A
+19 1
+#122
+chaleco duracero~
+un chaleco de duracero~
+Un chaleco de duracero está aquí~
+~
+9 0 9
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+A
+18 1
+A
+19 1
+A
+18 1
+A
+19 1
+#123
+casco duracero~
+un casco de duracero~
+Un casco de duracero está aquí~
+~
+9 0 17
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+#124
+botas duracero~
+unas botas de duracero~
+Unas botas de duracero están aquí~
+~
+9 0 65
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+#125
+cinturon duracero cinturón~
+un cinturón de curadero~
+Un cinturón de duradero está aquí enrollado~
+~
+9 0 2049
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+#126
+brazales duracero~
+unos brazales de duracero~
+Unos brazales de duracero están aquí~
+~
+9 0 257
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+#127
+pantalones duracero~
+unos pantalones de duracero~
+Unos pantalones de duracero están aquí~
+~
+9 0 33
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+A
+18 1
+A
+19 1
+A
+18 1
+A
+19 1
+#128
+escudo duracero~
+un escudo de duracero~
+Un escudo de duracero está aquí tirado~
+~
+9 0 513
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+#129
+capa duracero~
+una capa de duracero~
+Una capa de duracero está aquí~
+~
+9 0 1025
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+#130
+vibrohoja duracero~
+una vibrohoja de duracero~
+Una vibrohoja de duracero está aquí tirada~
+~
+5 0 8193
+12 3 6 2 500 500
+2 3 0
+A
+18 1
+A
+19 1
+#131
+comunicador duracero~
+un comunicador de duracero~
+Un comunicador de duracero está aquí~
+~
+72 0 65537
+12 -10 0 0
+2 3 0
+A
+18 1
+A
+19 1
+#132
+mochila duracero~
+una mochila de duracero~
+Una mochila de duracero está aquí~
+~
+15 0 524289
+20 0 0 0
+2 3 0
+A
+18 1
+A
+19 1
+#133
+racion pequenya pequeña empaquetada~
+una pequeña ración empaquetada~
+Una ración empaquetada está aquí, esperando ser comida.~
+~
+19 8192 1
+20 20 0 0
+2 5 0
+#134
+cantimplora pequenya pequeña~
+una pequeña cantimplora~
+Una cantimplora pequeña está aquí tirada.~
+~
+17 8192 1
+10 10 0 0
+1 10 1
+#135
+taparrabos~
+un taparrabos~
+Un traparrabos está aquí tirado~
+~
+9 0 1025
+25 -15 0 0
+1 0 0
+A
+18 3
+A
+19 3
+#136
+aguja e hilo~
+una aguja e hilo~
+Una aguja e hilo han sido tirados aquí.~
+~
+77 0 1
+0 0 0 0
+1 5 0
+#137
+trozo tela~
+un trozo de tela~
+Un trozo de tela está aquí enrollado~
+~
+74 0 1
+0 0 0 0
+1 5 0
+#138
+cristal barato~
+un cristal barato~
+Un cristal barato está aquí.~
+~
+63 0 1
+1 0 0 0
+1 5 0
+#139
+pequenya bateria batería pequeña~
+una batería pequeña~
+Una batería pequeña está aquí~
+~
+65 8192 16385
+5000 0 0 0
+1 20 2
+#140
+circuito pequeño pequenyo~
+un pequeño circuito~
+Un pequeño circuito está aquí~
+~
+70 0 1
+0 0 0 0
+1 5 0
+#141
+caja herramientas~
+una caja de herramientas~
+Una caja de herramientas ha sido dejada aquí~
+~
+66 0 1
+0 0 0 0
+3 10 1
+#142
+horno~
+un horno~
+Un horno ha sido dejado aquí~
+~
+68 0 1
+0 0 0 0
+5 25 2
+#143
+lente~
+una lente~
+Una lente está aquí tirada~
+~
+62 0 1
+0 0 0 0
+1 5 0
+#144
+pieza metal~
+una pieza de metal~
+Una pieza de metal ha sido tirada aquí~
+~
+75 0 1
+0 0 0 0
+1 15 1
+#145
+productos quimicos~
+algunos productos químicos~
+Algunos productos químicos han sido tirados aquí~
+~
+87 0 1
+100 0 0 0
+1 5 0
+#146
+pieza duracero~
+una pieza de duracero~
+Una pieza de duracero está aquí~
+~
+67 0 1
+0 0 0 0
+1 5 0
+#147
+superconductor~
+un superconductor~
+Un superconductor está aquí~
+~
+71 0 1
+0 0 0 0
+1 5 0
+#148
+pieza duraplastico duraplástico~
+una pieza de duraplástico~
+Una pieza de duraplástico ha sido tirada aquí~
+~
+64 0 1
+0 0 0 0
+1 5 0
+#149
+XT-3000 Wrist-Comlink~
+a XT-3000 Wrist-Comlink~
+A XT-3000 Wrist-Comlink is discarded here~
+~
+72 8192 4097
+0 0 0 0
+1 25 2
+#150
+Medkit~
+a Medkit~
+A Medkit is here.~
+~
+73 8192 16385
+10 10 10 0
+1 10 1
+#151
+celula municion munición célula~
+una célula de munición~
+Una célula de munición está aquí.~
+~
+57 8192 16385
+1000 0 0 0
+1 30 3
+#152
+dl-2 blaster pistol~
+a dl-2 blaster pistol~
+A dl-2 blaster pistol is here.~
+~
+5 0 8193
+12 5 5 6 2000 2000
+1 500 50
+#153
+A Builders Board~
+Builders Board~
+A Builders Board sits here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#190
+hi_obj~
+a hi_obj~
+A hi_obj is here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#115
+Una litera~
+Permaneces sobre el colchón de la litera. Las ventanas de la
+nave en la que te encuentras te permiten ver las estrellas que
+contribuyen a aumentar tu sensación de sueño. Pero hay mucho
+por hacer...Estás en un lugar seguro. Puedes abandonar el juego
+aquí. Estás en la nave de novatos. Aquí podrás aprender lo necesario
+para jugar al mud. Recomendamos no centrarse en ninguna habilidad
+y aprovechar para subir todas las categorías posibles un poco.
+~
+0 8388620 1 0 0 0 3720
+D5
+~
+~
+0 -1 116 0
+S
+#116
+Una pequeña cabina~
+Has llegado a una pequeña cabina poco decorada. Las paredes son
+grises y una lámpara apenas ilumina el lugar. En el centro 
+de la estancia observas una mesa en la que hay sentado un pequeño
+droide de protocolo.
+~
+0 1036 1 0 0 0 3720
+D0
+~
+~
+0 -1 117 0
+D4
+~
+~
+0 -1 115 0
+R M 0 131 1 116
+S
+#117
+Un corredor~
+Este corredor está iluminado por suaves luces. Un cartel llama
+tu atención. Lo miras de cerca y lees: "El comando ayuda es
+tu mejor amigo." 
+~
+0 8 1 0 0 0 3720
+D1
+~
+~
+0 -1 120 0
+D2
+~
+~
+0 -1 116 0
+R O 0 1080 1 117
+S
+#118
+A Brightly Lit Corridor~
+This corridor is quite wide and brightly lit up. Along the walls there are
+various peices of art works, all designed to stimulate some part of the
+brain. The floor and walls are the same as in the bunks but the air seems
+a little bit cooler. Even with the temperature difference, it is still
+comfortable. To the east the corridor continues and to the west it stops
+at a dead end.
+~
+0 8 1 0 0 0 3720
+D1
+~
+~
+0 -1 117 0
+D3
+~
+~
+0 -1 119 0
+S
+#119
+Dead End~
+The corridor ends abruptly here, with no sign of any doors or extra
+passages. There are no paintings or other peices of art work which seems
+quite odd compared to the rest of the corridor. The wall is curved in a
+semicircular shape which almost urges you to turn back around.
+~
+0 8 1 0 0 0 3720
+D1
+~
+~
+0 -1 118 0
+S
+#120
+Un corredor~
+Lo primero que te llama la atención de esta parte del corredor
+es un pequeño holograma que muestra un droide siendo fulminado
+por un bláster. Debajo un texto  reza: "La muerte es permanente
+al menos que tengas un clon de respaldo. Deberías revisar la
+ayuda muerte." 
+~
+0 8 1 0 0 0 3720
+D0
+~
+~
+0 -1 123 0
+D3
+~
+~
+0 -1 117 0
+S
+#121
+Small Cabin~
+The room is of average size for a large starship and is sparsely decorated.
+The walls and ceiling are white and the floor is a dark grey tile. In the
+corner there is a small bunk, an beside it there is a small table. Sitting
+on the table is a soft glowing lamp. In the opposite corener there is a
+padded chair. It looks like a nice place to relax. But you too much to do
+for that. To the south there is a corridor that leads to the rest of the
+ship.
+~
+0 8 1 0 0 0 3720
+D2
+~
+~
+0 -1 117 0
+D4
+~
+~
+0 -1 122 0
+S
+#122
+In a Bunk~
+Where am I? runs through your mind. Well, you are lying down on a bunk on
+the Newbie Ship that slowly makes its way around the galaxy. Through the
+window you can see the stars shining on the bed. The quiet of the room and
+the tranquil site can make on very sleepy, but you have lots ahead of you.
+On the ship there is a large training facility designed especially for
+you. So wander around and ask questions if you need to.
+ 
+(You can safely exit the game from here.)
+ 
+ 
+(Please look at the help files to learn new things. If there isn't one, let
+somebody know.)
+~
+0 8388616 1 0 0 0 3720
+D5
+~
+~
+0 -1 121 0
+S
+#123
+Turboascensor~
+Este turboascensor se encuentra cerca de la parte delantera de
+la nave lo que le permite llegar  a todos los niveles de la
+nave. Las paredes y el techo están hechos de duracero. Del techo
+cuelga una lámpara que produce la luz necesaria para ver. Este
+turhboascensor funciona por voz. Solo hay que decir el número
+de planta a la que se desea ir.
+~
+0 1036 1 0 0 0 3720
+R M 0 126 2 123
+R O 0 115 1 123
+E
+list lists level levels~
+&G&G[&W 1&G] &WBunk Level&w
+&G&G[&W 2&G] &WCombat Training&w
+&G&G[&W 3&G] &WEngineering&w
+&G&G[&W 4&G] &WBountyHunting&w
+&G&G[&W 5&G] &WSmuggling&w
+&G&G[&W 6&G] &WSlicer Training&w
+&G&G[&W 7&G] &WPilot Training&w
+&G&G[&W 8&G] &WLanguage Training
+&G&G[&W 9&G] &WHanger Level&w
+~
+> speech_prog say 1~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 1. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 120
+mpat 120 mer $n $n gets off the turbolift.
+~
+> speech_prog say 2~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 2. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 125
+mpat 125 mer $n $n gets off the turbolift.
+~
+> speech_prog say 3~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 3. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 133
+mpat 133 mer $n $n sale del turboascensor.
+~
+> speech_prog say 4~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 4. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 148
+mpat 148 mer $n $n steps off of the turbolift.
+~
+> speech_prog say 5~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 5. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 159
+mpat 159 mer $n $n gets off of the turbolift.
+~
+> speech_prog say 6~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 6. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 163
+mpat 163 mer $n $n steps off the turbolift.
+~
+> speech_prog say 7~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 7. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 180
+mpat 180 mer $n $n gets out of the turbolift.
+~
+> speech_prog say 8~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 8. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 172
+mpat 172 mer $n $n steps off the turbolift.
+~
+> speech_prog say 9~
+mpecho el turboascensor comienza a moverse. 
+mpecho El turboascensor se detiene lentamente y abre sus puertas.
+mpecho &cUna voz electrónica dice: 'Nivel 9. Por favor salga.'
+mpechoat $n Sales del turboascensor.
+mpechoaround $n $n sale del turboascensor.
+mptransfer $n 171
+mpat 171 mer $n $n get off of the turbolift.
+~
+|
+S
+#125
+Entrenamiento de combate~
+Esta habitación explica para qué sirve el comando HUIR, que es
+una forma de salir del combate. Puedes retirarte manualmente
+de una pelea con huir. Para usar este comando, simplemento escribe
+huir. Puedes huir del combate con cualquier cantidad de puntos
+de vida. Huyendo perderás puntos de experiencia.
+~
+0 8 1 0 0 0 3720
+D0
+~
+~
+0 -1 123 0
+D3
+~
+~
+0 -1 126 0
+S
+#126
+Un corredor iluminado~
+Este corredor conduce al este y al oeste. Hacia el este, puedes
+observar una gran habitación preparada para el entrenamiento
+de combate. Al oeste, hay varias habitaciones para trabajar
+la fuerza, la destreza y otras habilidades que necesitarás para
+poder sobrevivir. A diferencia del nivel de literas, no hay pinturas
+a lo largo de las paredes, pero si fotos de grandes luchadores,
+atletas y generales. Con suerte, ver a toda esta gran gente,
+inspirará a las nuevas generaciones.
+~
+0 8 1 0 0 0 3720
+D1
+~
+~
+0 -1 125 0
+D3
+~
+~
+0 -1 127 0
+S
+#127
+Un corredor iluminado~
+Este corredor conduce hacia todas las direcciones. Al norte,
+está la oficina del General Rooks. Al sur, está la sala de entrenamiento
+de pesas donde puedes fortalecer tu musculatura. Hacia el este
+y al oeste, el pasillo continúa. A diferencia del nivel de las
+literas, no hay pinturas a lo largo de las paredes, pero sí
+fotos de grandes luchadores, atletas y generales. Con suerte,
+ver a toda esta gran gente, inspirará a las nuevas generaciones.
+~
+0 12 1 0 0 0 3720
+D0
+~
+~
+0 -1 128 0
+D1
+~
+~
+0 -1 126 0
+D2
+~
+~
+0 -1 129 0
+D3
+~
+~
+0 -1 130 0
+S
+#128
+La oficina del General Rock~
+La oficina del General Rock es más pequeña de lo que te imaginabas,
+pero sólo sirve como una oficina a la que el General no acude
+habitualmente. Las paredes son blancas, pero están casi ocultas
+a la vista por carteles, armas y mapas.  En el centro de la
+habitación, hay un escritorio bellamente tallado y detrás de
+el está sentado el General Rock. Parece duro de los pies a la
+cabeza, pero esa es sólo su apariencia.
+~
+0 8 1 0 0 0 3720
+D2
+~
+~
+0 -1 127 0
+R M 0 116 1 128
+R O 0 116 1 128
+S
+#129
+Sala de entrenamiento de pesas~
+La sala de pesas es una sala enorme llena de cada tipo de pesas
+existente en la galaxia. La razón detrás de esto es que los
+propietarios quieren ser capaces de acomodar todos los tipos
+de forma de vida sensibles en la galaxia. La habitación es enorme
+y está muy bien iluminada.  Las máquinas están dispuestas en
+filas con pasillos intermedios. Hay un buen número de criaturas
+trabajando sudorosos, pero no tantos como durante las horas
+de observación 
+~
+0 8 1 0 0 0 3720
+D0
+~
+~
+0 -1 127 0
+R M 0 117 1 129
+R O 0 117 1 129
+> speech_prog curar~
+mprestore $n 1000
+~
+|
+S
+#130
+Un corredor iluminado~
+El corredor discurre hacia el este. Al norte y al sur hay un
+gimnasio y la Torre Armada 1. Puedes utilizar el gimnasio para
+entrenar la destreza, la resistencia, habilidades de combate
+y varias cosas más que serán cruciales para tu supervivencia.
+Puedes utilizar la torre para practicar combate espacial o simplemente
+para observar las estrellas que pasan.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 131 0
+D1
+~
+~
+0 -1 127 0
+S
+#131
+Gimnasio~
+Una larga pista rodea el gimnasio y puedes ver varias criaturas
+andando, trotando o corriendo. En el centro hay un pequeño grupo
+de gente haciendo ejercicios de aptitud y, al otro lado, unas
+cuántas personas están practicando combate cuerpo a cuerpo.
+Puedes hacer lo que quieras, hay mucho sitio para compartirlo
+entre todos.
+~
+0 1073741832 1 0 0 0 3720
+D2
+~
+~
+0 -1 130 0
+R M 0 118 1 131
+  R E 1 135 1 12
+S
+#132
+Turret1~
+This turret is designed to be used by students to practice their space
+combat skills. It can also be used when the ship is being attacked as a
+light laser turret. The seat is gyroscopically suspended and attached to
+the cannon so that they all swivel as a single unit enabling excellent
+target tracking.  From here, one can see a pretty good part of this
+sector. 
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 130 0
+S
+#133
+Nivel de Ingeniería~
+El corredor conduce hacia el este y hacia el oeste. En ambas
+direcciones hay fábricas donde puedes construir lo que quieras
+en un entorno pacífico y hacer simulacros de configuración de
+las naves.  En el nivel actual, los ingenieros novatos pueden
+perfeccionar sus habilidades. El corredor en sí no había sido
+pintado de blanco, sino que quedó el negro original del Duracero.
+Esto es porque la suciedad, la grasa y otras cosas no se notan
+tan fácilmente.  Hay máquinas en todas partes emitiendo zumbidos
+y otros sonidos. Todo es un caos controlado. Sin embargo, funciona.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 123 0
+D1
+~
+~
+0 -1 134 0
+D3
+~
+~
+0 -1 141 0
+S
+#134
+Un corredor iluminado~
+El corredor conduce al este y al oeste. Al norte y al sur hay
+fábricas donde uno puede traabajar tranquilamente en cualquier
+cosa que desee.  Abajo, puedes ver a los ingenieros veteranos,
+ya que se encargan de la nave y se aseguran de que todo funcione
+correctamente.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 135 0
+D1
+~
+~
+0 -1 137 0
+D2
+~
+~
+0 -1 136 0
+D3
+~
+~
+0 -1 133 0
+S
+#135
+Fábrica~
+Este pequeño taller no es más que una habitación tranquila con
+pocos bancos. Se requiere que las personas traigan sus propias
+herramientas y equipo.  Alrededor de la habitación hay un puñado
+de individuos trabajando tranquilamente en algún tipo de dispositivo
+u otro. Algunas personas están soldando al arco mientras que
+otras están soldando o probando diferentes componentes. En la
+pared lejana hay un tablón de anuncios donde la gente puede
+compartir sus ideas y creaciones con otros.
+~
+0 1140851720 1 0 0 0 5
+D2
+~
+~
+0 -1 134 0
+S
+#136
+Fábrica~
+Este pequeño taller no es más que una habitación tranquila con
+pocos bancos. Se requiere que las personas traigan sus propias
+herramientas y equipo.  Alrededor de la habitación, la gente
+está ocupada trabajando en soldar, pegar, o en cualquiera de
+las muchas acciones que conducen a la creación y realización
+de algún objeto. Este cuarto de la fábrica está bastante lleno,
+pero todavía hay algunas mesas libres a la izquierda.
+~
+0 1140851720 1 0 0 0 5
+D0
+~
+~
+0 -1 134 0
+S
+#137
+Un corredor iluminado~
+El corredor conduce en todas direcciones. Al norte y al sur hay
+fábricas donde se puede trabajar tranquilamente en lo que se
+quiera. Al este hay una configuración simuladadel núcleo de
+potencia principal donde los ingenieros novatos pueden perfeccionar
+sus habilidades. Hacia el oeste, el corredor co  A diferencia
+del resto de la nave, aquí no hay paredes de duracero con el
+suelo y el techo pintados de blanco, sino que se han dejado
+de color negro, el color original del duracero. Esto es para
+evitar tener que limpiar todo el tiempo.
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 138 0
+D1
+~
+~
+0 -1 140 0
+D2
+~
+~
+0 -1 139 0
+D3
+~
+~
+0 -1 134 0
+S
+#138
+Fábrica~
+Este pequeño taller no es más que una habitación tranquila con
+pocos bancos. Se requiere que las personas traigan sus propias
+herramientas y equipo.
+~
+0 1140851720 1 0 0 0 5
+D2
+~
+~
+0 -1 137 0
+S
+#139
+Fábrica~
+Este pequeño taller no es más que una habitación tranquila con
+pocos bancos. Se requiere que las personas traigan sus propias
+herramientas y equipo.
+~
+0 1140850696 1 0 0 0 5
+D0
+~
+~
+0 -1 137 0
+S
+#140
+Entrenamiento de Ingeniería~
+Esta es una configuración simulada de la sala principal del Novato.
+Justo delante hay una pasarela semicircular que rodea un gran
+núcleo de poder. Ahí hay un anillo de paneles de luz azul que
+rodea el núcleo de potencia principal.  El núcleo mismo está
+latiendo en un rojo intenso. También hay un fuerte zumbido haciendo
+eco en tus oídos que parece venir de todas partes.
+~
+0 1073742856 1 0 0 0 5
+D3
+~
+~
+0 -1 137 0
+R M 0 127 1 140
+S
+#141
+Un corredor iluminado~
+El corredor conduce al este y al oeste. Al norte y al sur hay
+fábricas donde uno puede traabajar tranquilamente en cualquier
+cosa que desee.  Abajo, puedes ver a los ingenieros veteranos,
+ya que se encargan de la nave y se aseguran de que todo funcione
+correctamente.
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 142 0
+D1
+~
+~
+0 -1 133 0
+D2
+~
+~
+0 -1 143 0
+D3
+~
+~
+0 -1 144 0
+S
+#142
+Fábrica~
+Este pequeño taller no es más que una habitación tranquila con
+pocos bancos. Se requiere que las personas traigan sus propias
+herramientas y equipo.  Alrededor de la habitación hay un puñado
+de individuos trabajando tranquilamente en algún tipo de dispositivo
+u otro. Algunas personas están soldando al arco mientras que
+otras están soldando o probando diferentes componentes. En la
+pared lejana hay un tablón de anuncios donde la gente puede
+compartir sus ideas y creaciones con otros.
+~
+0 1140851720 1 0 0 0 5
+D2
+~
+~
+0 -1 141 0
+S
+#143
+Fábrica~
+Este pequeño taller no es más que una habitación tranquila con
+pocos bancos. Se requiere que las personas traigan sus propias
+herramientas y equipo.  Alrededor de la habitación hay un puñado
+de individuos trabajando tranquilamente en algún tipo de dispositivo
+u otro. Algunas personas están soldando al arco mientras que
+otras están soldando o probando diferentes componentes. En la
+pared lejana hay un tablón de anuncios donde la gente puede
+compartir sus ideas y creaciones con otros.
+~
+0 1140851720 1 0 0 0 5
+D0
+~
+~
+0 -1 141 0
+S
+#144
+Un corredor iluminado~
+El corredor conduce hacia el este y hacia el oeste está la configuración
+simulada de las naves del reactor principal. Desde el oeste
+se puede escuchar el ruido de las máquinas y a veces se ven
+a ingenieros novatos corriendo por todos lados. Casi ningún
+ruido viene del norte y del sur, donde se encuentran algunas
+fábricas.
+~
+0 1073742856 1 0 0 0 5
+D0
+~
+~
+0 -1 146 0
+D1
+~
+~
+0 -1 141 0
+D2
+~
+~
+0 -1 145 0
+D3
+~
+~
+0 -1 147 0
+S
+#145
+Fábrica~
+Este pequeño taller no es más que una habitación tranquila con
+pocos bancos. Se requiere que las personas traigan sus propias
+herramientas y equipo.  Alrededor de la habitación hay un puñado
+de individuos trabajando tranquilamente en algún tipo de dispositivo
+u otro. Algunas personas están soldando al arco mientras que
+otras están soldando o probando diferentes componentes. En la
+pared lejana hay un tablón de anuncios donde la gente puede
+compartir sus ideas y creaciones con otros.
+~
+0 1140851720 1 0 0 0 5
+D0
+~
+~
+0 -1 144 0
+S
+#146
+Fábrica~
+Este pequeño taller no es más que una habitación tranquila con
+pocos bancos. Se requiere que las personas traigan sus propias
+herramientas y equipo.  Alrededor de la habitación hay un puñado
+de individuos trabajando tranquilamente en algún tipo de dispositivo
+u otro. Algunas personas están soldando al arco mientras que
+otras están soldando o probando diferentes componentes. En la
+pared lejana hay un tablón de anuncios donde la gente puede
+compartir sus ideas y creaciones con otros.
+~
+0 1140851720 1 0 0 0 5
+D2
+~
+~
+0 -1 144 0
+S
+#147
+Entrenamiento de ingeniería~
+Esta es una configuración de ingeniería simulada de la nave.
+Se usa para entrenar jóvenes ingenieros como tú. Como puedes
+ver, la plataforma está colocada alrededor de la nave reactora
+principal. Las pasarelas están hechas de rejas sólidas conectadas
+a varias consolas informáticas y otras piezas de maquinaria.
+Estas diferentes piezas, son las que mantienen volando a la
+nave.
+~
+0 1073742856 1 0 0 0 5
+D1
+~
+~
+0 -1 144 0
+R M 0 128 1 147
+S
+#148
+Sala de máquinas~
+Esta habitación es parte de la sala de máquinas actualmente,
+no uno de las configuraciones simuladas en el nivel de ingeniería.
+La iluminación es algo tenue y esta habitación parece algo calurosa
+además de tediosa. Aquí y allá puedes observar ingenieros vestidos
+con uniformes grises que hacen comprobaciones en varios sistemas.
+Hay muchísimas máquinas aquí.
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 123 0
+D1
+~
+~
+0 -1 149 0
+S
+#149
+Un corredor tenuemente iluminado~
+Este corredor conduce a otras zonas de la sala de juegos. Es
+un tanto ancho, con mucho espacio para mover una gran cantidad
+de máquinas. Es utilizado por personas y droides y está hecho
+de duracero negro. En ambas paredes hay muchos paneles llenos
+de circuitos y otros elementos que mantienen la nave 
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 150 0
+D1
+~
+~
+0 -1 152 0
+D2
+~
+~
+0 -1 151 0
+D3
+~
+~
+0 -1 148 0
+S
+#150
+Detrás de algunas tuberías~
+Este es un escondite bastante bueno. Aquí todo está más oscuro
+y las tuberías ocultan todo lo que hay a la vista. Parece que
+nadie ha mirado aquí atrás desde hace tiempo porque hay una
+cantidad decente de polvo espacial en las tuberías y en el suelo,
+parece haber un pequeño charco de algo que gotea desde las tuberías.
+~
+0 1073741836 1 0 0 0 3720
+D2
+~
+~
+0 -1 149 0
+S
+#151
+Detrás de algunas tuberías~
+Este es un escondite bastante bueno. Aquí todo está más oscuro
+y las tuberías ocultan todo lo que hay a la vista. Parece que
+nadie ha mirado aquí atrás desde hace tiempo porque hay una
+cantidad decente de polvo espacial en las tuberías y en el suelo,
+parece haber un pequeño charco de algo que gotea desde las tuberías.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 149 0
+S
+#152
+Un corredor tenuemente iluminado~
+El corredor continúa hacia el este y el oeste. En ambas direcciones
+puedes ver personas moviéndose haciendo distintos trabajos y
+de vez en cuando ves un droide. El sonido de la maquinaria llena
+tus oídos y parece como si estuviera latiendo en algún tipo
+de ritmo. Hacia el sur hay una pequeña oficina 
+~
+0 1073741832 1 0 0 0 3720
+D1
+~
+~
+0 -1 154 0
+D2
+~
+~
+0 -1 153 0
+D3
+~
+~
+0 -1 149 0
+R M 0 120 1 152
+S
+#153
+Una pequeña oficina~
+La oficina es mucho más silenciosa que el pasillo y la iluminación
+aquí es  mucho mejor también. Las paredes están cubiertas por
+tablones de anuncios que están cubiertos por esquemas y planos
+azules de cada pulgada de esta nave. En el centro de la habitación
+hay un pequeño escritorio y detrás está el  Ingeniero jefe.
+~
+0 1073741836 1 0 0 0 3720
+D0
+~
+~
+0 -1 152 0
+R M 0 119 2 153
+R O 0 116 1 153
+> entry_prog 100~
+if level($n) >= 10
+mea $n Te excoltan al hangar de novatos.
+mpechoaround $n $n es excoltado al hangar de novatos.
+mptransfer $n 178
+mpat 178 mpforce $n mirar
+else
+endif
+~
+|
+S
+#154
+Un corredor tenuemente iluminado~
+El corredor conduce hacia el oeste. El único lugar a donde se
+puede ir desde aquí es detrás de varias tuberías, hacia el norte.
+Esta sección de ingeniería contiene la mayoría de los paneles
+de control para diferentes sistemas. Justo delante está el panel
+que controla los sistemas climáticos. Y debajo de este hay un
+panel para hacer modificaciones a los cañones de la torreta.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 155 0
+D3
+~
+~
+0 -1 152 0
+S
+#155
+Detrás de algunas tuberías~
+Aquí está mucho más oscuro y las tuberías bloquean la visión
+de cualquiera que mire en esta dirección. Las tuberías en sí
+están filtrando alguna clase de líquido claro y parece que lo
+han estado haciendo durante bastante tiempo. La pared está cubierta
+de una especie de sustancia pegajosa de alquitrán negro, así
+que no te acerques demasiado. Al noreste hay uno de los muchos
+generadores situados en este nivel.
+~
+0 1073741832 1 0 0 0 3720
+D2
+~
+~
+0 -1 154 0
+D6
+~
+~
+0 -1 156 0
+S
+#156
+Detrás de un generador~
+Este es un generador GE-2700 de Clase A. Es bien sabido que es
+capaz de producir gran cantidad de energía, y aun así es compacto.
+Está cubierto por un duracero gris oscuro y emite un zumbido
+muy bajo. De pie  junto a él se puede ver que no mucha gente
+viene aquí, debido a la gran cantidad de polvo que se encuentra
+en todas partes.
+~
+0 1073741832 1 0 0 0 3720
+D6
+~
+~
+0 -1 157 0
+D9
+~
+~
+0 -1 155 0
+S
+#157
+Detrás de un motor~
+Este es el típico motor que se puede encontrar en casi cualquier
+depósito de chatarra alrededor de la galaxia. Según puede verse,
+hay un panel de control en el lado más cercano. Este motor controla
+las puertas de explosión ubicadas alrededor de la nave. El polvo
+que se ha asentado por todos lados ha sido recientemente removido
+por el motor y se está acumulando en el aire.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 158 0
+D9
+~
+~
+0 -1 156 0
+> rand_prog 100~
+mpdamage $n 20
+mpechoat $n El polvo del aire te ahoga
+mpechoat $n respira con dificultad.
+~
+|
+S
+#158
+Detrás de algunas tuberías~
+Esta es la parte más alejada a la que se puede ir. Aquí, las
+tuberías están lo suficientemente separadas para que un wookiee
+humano de tamaño medio quepa detrás. El olor de lo que haya
+en las tuberías es nauseabundo y el suelo está cubierto de algo
+resbaladizo. Encima de tu cabeza hay una red, sin duda perteneciente
+a alguna criatura peligrosa.
+~
+0 1073741832 1 0 0 0 3720
+D2
+~
+~
+0 -1 157 0
+S
+#159
+Un corredor iluminado~
+Este corredor contiene objetos clasificados en diferentes categorías.
+Al este puedes ver la entrada al pequeño almacén y al oeste
+está la oficina del comandante Targs. El comandante no es muy
+paciente con la gente que se dedica a merodear en su nivel de
+la nave. También desprecia el contrabando de bienes o de armas
+y las confiscará inmediatamente él mismo si las encuentra.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 123 0
+D1
+~
+~
+0 -1 162 0
+D3
+~
+~
+0 -1 160 0
+S
+#160
+La oficina del Comandante Targs~
+Esta oficina está decorada de la misma forma que el vestíbulo;
+todas las paredes excepto una, que está llena de libros. La
+pared opuesta, la única que queda desnuda, contiene un visor
+singular con una holo-pantalla para mostrar cualquier visión
+imaginable. Desde esta habitación el Comandante Targ controla
+a su equipo, supervisando los planes y estrategias de "Los cálculos
+de Targ".
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 161 0
+D1
+~
+~
+0 -1 159 0
+R M 0 121 1 160
+> entry_prog 100~
+if level($n) >= 10
+mea $n Te excoltan al hangar de novatos.
+mpechoaround $n $n es excoltado al hangar de novatos.
+mptransfer $n 178
+mpat 178 mpforce $n mirar
+else
+endif
+~
+|
+S
+#161
+Una pequeña habitación~
+Ésta habitación es muy larga. Consta de varias estanterías que
+llegan hasta el mismísimo techo. Cada estantería está llena
+de cajas etiquetadas, cajones o piezas sueltas. Quizá si buscas
+algo en esta habitación puedas conseguir algo útil, pero también
+podría ser una gran pérdida de tiempo. Sólo hay una forma de
+averiguarlo.
+~
+0 1073742092 1 0 0 0 3720
+D2
+~
+~
+0 -1 160 0
+R M 0 122 1 161
+> entry_prog 100~
+if level($n) >= 10
+mea $n Te excoltan al hangar de novatos.
+mpechoaround $n $n ex excoltado al hangar de novatos.
+mptransfer $n 178
+mpat 178 mpforce $n mirar
+else
+endif
+~
+|
+S
+#162
+Una habitación pequeña~
+Este almacén es de un tamaño decente y está lleno de varias filas
+de altas estanterías. Cada estante está abarrotado de cajas
+etiquetadas, cajones o piezas sueltas. Tal vez buscar en esta
+sala podría serte útil. Por otro lado, podría ser una pérdida
+de tiempo y no valer la pena el esfuerzo.
+~
+0 1073741832 1 0 0 0 3720
+D3
+~
+~
+0 -1 159 0
+R M 0 123 1 162
+  R G 1 152 1
+S
+#163
+Centro informático~
+Este es el centro informático principal a bordo. Técnicos y hackers
+corren por todos lados trabajando en una cosa u otra. Muchas
+luces de diagnóstico y estado parpadean por todas partes. Las
+luces principales se han atenuado para que los informáticos
+se centren en sus trabajos y vean los diferentes paneles de
+control más fácilmente.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 123 0
+D2
+~
+~
+0 -1 165 0
+D3
+~
+~
+0 -1 164 0
+S
+#164
+Sala de ordenadores~
+Esta es una gran sala llena de ordenadores y equipos informáticos.
+También hay una gran taquilla cerca de la puerta llena con casi
+todos los componentes que un hacker necesitaría para construir
+lo que desease. Las luces principales están atenuadas aquí para
+mantener a los informáticos enfocados en su trabajo y permitirles
+ver los paneles de control más fácilmente. Un gran escritorio
+y una silla ocupan el centro de la habitación, donde el técnico
+jefe trabaja en el ordenador principal.
+~
+0 1073742856 1 0 0 0 3720
+D1
+~
+~
+0 -1 163 0
+R M 0 124 1 164
+R O 0 120 1 164
+S
+#165
+Un corredor iluminado~
+El corredor conduce a la sección de fábricas de este nivel. Es
+un tranquilo lugar lejos de todo el ajetreo y el bullicio del
+mantenimiento del barco, donde puede construirse lo que se desee.
+Hacia el este y el oeste hay fábricas o talleres y al sur hay
+algunos más.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 163 0
+D1
+~
+~
+0 -1 167 0
+D2
+~
+~
+0 -1 166 0
+D3
+~
+~
+0 -1 168 0
+S
+#166
+Un corredor iluminado~
+El corredor termina aquí. Las salidas están al norte, donde regresas
+por el pasillo, o al este y al oeste, donde hay fábricas y talleres.
+En la pared al final del corredor hay un gran cuadro. Llena
+casi toda la pared y es bastante cautivador. Debajo del cuadro
+hay una pequeña "placa" con algo escrito.
+~
+0 1073741832 1 0 0 0 3720
+D0
+~
+~
+0 -1 165 0
+D1
+~
+~
+0 -1 169 0
+D3
+~
+~
+0 -1 170 0
+E
+plaque~
+This painting "Storm" was created by Winslau Da'k. Its use of color is
+magnificent and only matched by the greatest painters in history.
+~
+S
+#167
+Fábrica~
+Este taller es bastante pequeño y solo permite que unas pocas
+personas trabajen a la vez. Hay algunos bancos en filas y algunas
+paredes están alineadas. En cada banco hay un equipo completo
+de herramientas y tomas de corriente. Todo lo que uno tiene
+que hacer es obtener las piezas y los esquemas y podría construir
+casi cualquier cosa.
+~
+0 1140850696 1 0 0 0 5
+D3
+~
+~
+0 -1 165 0
+S
+#168
+Fábrica~
+Este taller es bastante pequeño y solo permite que unas pocas
+personas trabajen a la vez. Hay algunos bancos en filas y algunas
+paredes están alineadas. En cada banco hay un equipo completo
+de herramientas y tomas de corriente. Todo lo que uno tiene
+que hacer es obtener las piezas y los esquemas y podría construir
+casi cualquier cosa.
+~
+0 1140850696 1 0 0 0 5
+D1
+~
+~
+0 -1 165 0
+S
+#169
+Fábrica~
+Este taller es bastante pequeño y solo permite que unas pocas
+personas trabajen a la vez. Hay algunos bancos en filas y algunas
+paredes están alineadas. En cada banco hay un equipo completo
+de herramientas y tomas de corriente. Todo lo que uno tiene
+que hacer es obtener las piezas y los esquemas y podría construir
+casi cualquier cosa.
+~
+0 1140850696 1 0 0 0 5
+D3
+~
+~
+0 -1 166 0
+S
+#170
+Fábrica~
+Este taller es bastante pequeño y solo permite que unas pocas
+personas trabajen a la vez. Hay algunos bancos en filas y algunas
+paredes están alineadas. En cada banco hay un equipo completo
+de herramientas y tomas de corriente. Todo lo que uno tiene
+que hacer es obtener las piezas y los esquemas y podría construir
+casi cualquier cosa.
+~
+0 1140850696 1 0 0 0 5
+D1
+~
+~
+0 -1 166 0
+S
+#171
+Un corredor iluminado~
+Este corredor conduce a la tienda del novato al este, al banco
+galáctico al oeste y al hangar del novato-1 al sur. Puedes ir
+a donde quieras, pero una vez que vayas a la lanzadera no se
+te permitirá volver al resto de la nave. El centro está lleno
+de gente yendo de un lado para otro, la mayoría va a comprar
+cosas en la tienda y luego hacia la lanzadera para explorar
+la galaxia.
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 123 0
+D1
+~
+~
+0 -1 176 0
+D2
+~
+~
+0 -1 178 0
+D3
+~
+~
+0 -1 177 0
+S
+#172
+Nivel de estudios~
+Esta habitación no es más que un pequeño espacio rodeado por
+tres paredes y la puerta del turboascensor. Las paredes son
+todas de tonos blancos grisáceos al igual que el suelo. A lo
+largo de las paredes hay pinturas que están diseñadas para estimular
+diferentes partes del cerebro con el fin de estimular a las
+personas que está estudiando diferentes habilidades.
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 123 0
+D2
+~
+~
+0 -1 173 0
+S
+#173
+Un corredor iluminado~
+Las paredes del pasillo están decoradas con obras de arte raras
+y originales que ayudan a aumentar las capacidades mentales.
+Los suelos son grises y las paredes son de dos tonos: blanco
+y gris. Al norte, el corredor conduce al turboascensor y al
+oeste, hay un aula grande donde los estudiantes pueden aprender
+otros idiomas.
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 172 0
+D3
+~
+~
+0 -1 174 0
+S
+#174
+Clases de idiomas~
+Aquí es donde puedes APRENDER los diferentes IDIOMAS.  Los idiomas
+se aprenden de forma diferente que los hechizos, las habilidades
+y las armas. Debes ser apto para poder aprender y poder poner
+estos idiomas en PRÁCTICA.  No necesitas aprender la LENGUA
+de tu raza ni el lenguaje común, ya que ambos vienen naturalmente
+a ti. Para poder aprender un idioma, escribe LENGUAJE APRENDIZAJE
+<idioma tipo>.   Para más información sobre cómo aprender un
+idioma, escribe HELP LANGUAGES.  Aprender a usar idiomas, escribe
+HELP SPEAK y HELP TONGUE.  Costará unas cuantas sesiones de
+práctica cada vez que deses aumentar tu fluidez en un idioma.
+Los que son inteligentes, sabios y afortunados podrán comprobar
+que se necesitan menos sesiones de práctica para hacerse expertos
+en un idioma.
+~
+0 1073742856 1 4 0 0 5
+D1
+~
+~
+0 -1 173 0
+R M 0 129 1 174
+S
+#175
+The Classroom~
+This is where you will practice your arsenal of weapons, spells and powers.
+Type PRACTICE to get a list of these currently available to you.  Everyone
+will have sections listing skills, weapons and languages.  You will also
+have an additional section for force powers, although not everyone will be
+able to use these.  Although it is possible to learn the theories behind
+how the force works, not everyon has the ability to use it. To practice a
+force ability, skill or weapons style, type PRACTICE <full name of power,
+skill or weapon style>. For instance, to practice dual wield, you would
+type PRAC DUAL WIELD. When practicing, you start at 0% and one practice
+will earn you between 15% and 20% proficieny.  Additional knowledge is
+gained through usage of the skill or spell until adept, which is a maximum
+of 30% - 95%. To get see information using powers, skills or weapons, type
+HELP CAST or HELP <spell, skill or weapon style>.  For general questions
+on practicing, type HELP PRACTICE.  The number of practice sessions you
+may gain at each level is determined by the amount of wisdom you have when
+you level.
+~
+0 1073741832 1 0 0 0 5
+D3
+~
+~
+0 -1 173 0
+S
+#176
+Tienda del novato 1~
+La tienda Novato 1 está gestionada por la corporación de Ayuda
+al Novato, y es propiedad de la misma. La tienda es algo pequeña,
+pero se venden todos los elementos esenciales de supervivencia
+e incluso algunos otros artículos. El gerente de la tienda ha
+sido debidamente entrenado y puede hablar todos los idiomas
+de la galaxia, y además sabe algunas de sus costumbres.
+~
+0 1073742856 1 0 0 0 5
+D3
+~
+~
+0 -1 171 0
+R M 0 132 1 176
+  R G 1 133 1
+  R G 1 134 1
+  R G 1 149 1
+  R G 1 150 1
+  R G 1 151 1
+S
+#177
+Banco galáctico~
+Aquí ves una terminal bancaria conectada directamente con la
+red del banco galáctico. el lugar está rodeado por un escudo
+que impide que cuando alguien interactúe con la terminal otra
+persona pueda entrar. También impide que curiosos miren desde
+fuera qué hace cada quién con sus cuentas.
+~
+0 1073742088 1 0 0 0 5
+D1
+~
+~
+0 -1 171 0
+S
+#178
+El hangar~
+Este es el hangar del novato 1. Hay muchas naves, pues cada novato
+que viene aquí recibe una nave básica. El lugar está muy lleno
+y muchas personas corren haciendo una cosa u otra. El hangar
+parece ser de unos 200 metros por 100 yardas y casi todas las
+plataformas de aterrizaje son utilizadas. Si has terminado de
+usar el área de novato, puedes abordar tu nave y mirar lo que
+te espera en la galaxia. Simplemente di "quiero salir".
+~
+0 1073742860 1 4 0 0 5
+D0
+~
+~
+0 -1 171 0
+R M 0 150 1 178
+> speech_prog p quiero salir~
+mpechoat $n el coronel Jentric te acompaña a una lanzadera.
+mpechoat $n Te sientas y la lanzadera despega.
+mpsleep 18
+mpechoat $n Tras un rato llegas al Espaciopuerto principal de coruscant.
+mptransfer $n 1050
+mpat $n mpforce $n mirar
+mpecho $n se va en una lanzadera.
+mpat $n mpechoaround $n $n salta fuera de una nave.
+~
+|
+S
+#179
+Sala de simuladores~
+Esta es la sala del simulador. Hay muchísimos simuladores X-G
+X-WING aquí para el uso de cualquiera que venga. Cada simulador
+está conectado a una red principal que tiene varios sistemas
+dentro de la galaxia. En vez de arriesgar tu vida en una situación
+real, es mejor que afiances tus habilidades aquí. No hay mucha
+gente por aquí, así que podrías buscar un sitio en algún simulador.
+~
+0 1073741832 1 0 0 0 5
+D3
+~
+~
+0 -1 180 0
+S
+#180
+Simuladores~
+Te paras en un gran salón, obviamente para facilitar a todos
+los nuevos reclutas que vienen a través de esta academia. Hay
+mesas y sillas esparcidas por todas partes, y un bar en la esquina
+el cual lleva un viejo droide de servicio. Hay personas al alrededor
+y tus oídos están llenos del zumbido de muchas voces en una.
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 123 0
+D1
+~
+~
+0 -1 179 0
+D3
+~
+~
+0 -1 181 0
+S
+#181
+Entrenamiento para ser piloto~
+Este aula está diseñada para alojar a muchos estudiantes en una
+nave espacial mientras la pilotan. Las sillas y los pupitres
+están alineados en un semicírculo en la parte trasera. Al frente
+de la habitación hay un escritorio grande y detrás de él se
+encuentra el almirante Coran. Por el momento no tiene clase,
+por lo tanto, quizás pueda ayudarte.
+~
+0 1073741832 1 0 0 0 5
+D1
+~
+~
+0 -1 180 0
+R M 0 125 1 181
+R O 0 116 1 181
+> greet_prog 100~
+if level($n) >= 10
+mea $n Te excoltan al hangar de novatos.
+mpechoaround $n $n ex excoltado al hangar de novatos.
+mptransfer $n 178
+mpat 178 mpforce $n mirar
+else
+endif
+~
+|
+S
+#182
+SimV01~
+You enter a small simulator. The interior is designed to simulate that of
+one of the most common ships used, the X-Wing. Dials cover the top panel,
+and a blank screen fills in as a canopy. When run the screen will simulate
+space.
+~
+0 1073741836 1 0 0 0 5
+S
+#183
+SimV02~
+You enter a small simulator. The interior is designed to simulate that of
+one of the most common ships used, the X-Wing. Dials cover the top panel,
+and a blank screen fills in as a canopy. When run the screen will simulate
+space.
+~
+0 1073741836 1 0 0 0 5
+S
+#184
+SimV03~
+You enter a small simulator. The interior is designed to simulate that of
+one of the most common ships used, the X-Wing. Dials cover the top panel,
+and a blank screen fills in as a canopy. When run the screen will simulate
+space.
+~
+0 1073741836 1 0 0 0 5
+S
+#185
+SimV04~
+You enter a small simulator. The interior is designed to simulate that of
+one of the most common ships used, the X-Wing. Dials cover the top panel,
+and a blank screen fills in as a canopy. When run the screen will simulate
+space.
+~
+0 1073741836 1 0 0 0 5
+S
+#186
+SimV05~
+You enter a small simulator. The interior is designed to simulate that of
+one of the most common ships used, the X-Wing. Dials cover the top panel,
+and a blank screen fills in as a canopy. When run the screen will simulate
+space.
+~
+0 1073741836 1 0 0 0 5
+S
+#187
+SimV06~
+You enter a small simulator. The interior is designed to simulate that of
+one of the most common ships used, the X-Wing. Dials cover the top panel,
+and a blank screen fills in as a canopy. When run the screen will simulate
+space.
+~
+0 1073741836 1 0 0 0 5
+S
+#188
+A Dimly Lit Corridor~
+~
+0 1073741832 1 0 0 0 5
+D3
+~
+~
+0 -1 189 0
+D6
+~
+~
+0 -1 190 0
+S
+#189
+A Dimly Lit Corridor~
+~
+0 1073741832 1 0 0 0 5
+D0
+~
+~
+0 -1 123 0
+D1
+~
+~
+0 -1 188 0
+S
+#190
+Una sala pequeña~
+~
+0 12 1 0 0 0 3720
+D9
+~
+~
+0 -1 188 0
+S
+#0
+
+
+#SHOPS
+ 122    9  5  0  0  0   120  15         0 23    ; Un comerciante de armas de contrabando
+ 132    0  0  0  0  0   120  90         0 23    ; El gerente de la tienda
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  121 spec_customs_weapons
+M  131 spec_auth
+S
+
+
+#$

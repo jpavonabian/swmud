@@ -1,0 +1,300 @@
+#PLAYER
+Name         James~
+Version      5
+Comfreq      743.153~
+Sex          1
+Race         21
+MainAbility  7
+SecondAbility  1
+Languages    -1 2048
+Toplevel     36
+Pheight      0
+Build        0
+Played       104399
+Ship            ~
+ShipNum         0
+Room         100
+HpManaMove   32610 32700 0 0 30000 30000
+Force        0 0 2700 2700
+ForceControl 100
+ForceSense   100
+ForceAlter   100
+ForceChance   1
+ForceId      1
+ForceAlign   85
+ForceConverted   0
+ForceType      1
+ForceLvlStatus 3
+ForceSkill   0 100
+ForceSkill   1 100
+ForceSkill   2 50
+ForceSkill   3 0
+ForceSkill   4 50
+ForceSkill   5 0
+ForceSkill   6 0
+ForceSkill   7 59
+ForceSkill   8 50
+ForceSkill   9 50
+ForceSkill   10 50
+ForceSkill   11 50
+ForceSkill   12 0
+ForceSkill   13 0
+ForceSkill   14 0
+ForceSkill   15 53
+ForceSkill   16 96
+ForceSkill   17 50
+ForceSkill   18 50
+ForceSkill   19 0
+ForceSkill   20 50
+ForceSkill   21 50
+ForceSkill   22 0
+ForceSkill   23 50
+Gold         19496170
+Bank         0
+Salary       0
+Ability        0 31 467054 0
+Ability        1 31 450000 0
+Ability        2 30 424073 0
+Ability        3 30 420500 0
+Ability        4 30 361500 0
+Ability        5 30 420500 0
+Ability        6 30 420500 0
+Ability        7 30 441500 0
+Ability        8 30 420500 0
+Ability        9 30 448999 0
+Act          570449736
+AffectedBy   -2147483648
+Position     8
+SavingThrows 30 30 30 30 30
+Alignment    -100
+Glory        0
+MGlory       0
+Hitroll      84
+Damroll      63
+Armor        -300
+Rppoints   0
+Immune       4194303
+Mentalstate  -1
+Password     lÅ0ƒ3pÃ‰|\Ü"p~
+Lastplayed   1519069264
+Bamfin       James cae del cielo~
+Bamfout      James se eleva lentamente y desaparece en las alturas.~
+Fiance         Aliane~
+Spouse         Aliane~
+Title         James~
+AuthedBy     Grotans~
+Prompt       %h/%H Hp, %m/%M Fuerza, %v/%V Mov, alin %a %nRoom: %R %i~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+WizInvis     31
+Flags        2048
+MKills       5
+MDeaths      0
+AttrPerm     20 18 18 18 18 18 18
+AttrMod      0 0 0 0 0 0 0
+Condition    0 48 48 46
+Site         69-112-194-190.cab.prima.net.ar
+Skill        100 'agilidad'
+Skill        100 'alerta'
+Skill        100 'ambidiestro'
+Skill        100 'amordazar'
+Skill        100 'apunyalar'
+Skill        100 'asignarpiloto'
+Skill        100 'asir fuerte'
+Skill        100 'ataquedoble'
+Skill        100 'ataques_precisos'
+Skill        100 'auxiliar'
+Skill        100 'bombardear'
+Skill        100 'buscar'
+Skill        100 'cabezazo'
+Skill        100 'cavar'
+Skill        100 'cegar'
+Skill        100 'chandelle'
+Skill        100 'combate espacial 1'
+Skill        100 'combate espacial 2'
+Skill        100 'combate espacial 3'
+Skill        100 'comprobarbichos'
+Skill        100 'comprobarlocalizadores'
+Skill        100 'comunicadores'
+Skill        100 'concentrar fuerzas'
+Skill        100 'danyo incrementado'
+Skill        100 'danyo_mejorado'
+Skill        100 'derribar'
+Skill        100 'desactivarnave'
+Skill        100 'desarmar'
+Skill        100 'desinstalarmodulo'
+Skill        100 'discursito'
+Skill        100 'disfrazarse'
+Skill        100 'disimular'
+Skill        100 'disparar'
+Skill        100 'emboscar'
+Skill        100 'encarcelar'
+Skill        100 'enganyar'
+Skill        100 'envenenar arma'
+Skill        100 'esconderse'
+Skill        100 'espiar'
+Skill        100 'esquivar'
+Skill        100 'fabricararmadura'
+Skill        100 'fabricarbicho'
+Skill        100 'fabricarblaster'
+Skill        100 'fabricarbomba'
+Skill        100 'fabricarcomunicador'
+Skill        100 'fabricarcontenedor'
+Skill        100 'fabricardatapad'
+Skill        100 'fabricarenlacedecomunicaciones'
+Skill        100 'fabricarescudo'
+Skill        100 'fabricargafas'
+Skill        100 'fabricargranada'
+Skill        100 'fabricarhoja'
+Skill        100 'fabricarjoya'
+Skill        100 'fabricarlinterna'
+Skill        100 'fabricarlocalizador'
+Skill        100 'fabricarmina'
+Skill        100 'fabricarmodulo'
+Skill        100 'fabricarpica'
+Skill        100 'fisgar'
+Skill        100 'forzar naves'
+Skill        100 'fuerza interior'
+Skill        100 'furia'
+Skill        100 'golpe_multiple'
+Skill        100 'grandiscurso'
+Skill        100 'hackearbanco'
+Skill        100 'indagar'
+Skill        100 'informes'
+Skill        100 'instalarmodulo'
+Skill        100 'lanzar'
+Skill        100 'makelightsaber'
+Skill        100 'mantenimiento'
+Skill        100 'minar'
+Skill        100 'montar'
+Skill        100 'navegacion'
+Skill        100 'naves capitales'
+Skill        100 'naves medias'
+Skill        100 'naves pequenyas'
+Skill        100 'negociar'
+Skill        100 'ocultar_huellas'
+Skill        100 'ocultarse'
+Skill        100 'otear'
+Skill        100 'patada'
+Skill        100 'picado'
+Skill        100 'plantarbicho'
+Skill        100 'plantarlocalizador'
+Skill        100 'precision'
+Skill        100 'primeros auxilios'
+Skill        100 'propaganda'
+Skill        100 'punyetazo'
+Skill        100 'quitarbicho'
+Skill        100 'quitarlocalizadores'
+Skill        100 'rastrear'
+Skill        100 'rayotractor'
+Skill        100 'refinar especias'
+Skill        100 'reparar'
+Skill        100 'repararnave'
+Skill        100 'rescatar'
+Skill        100 'robar'
+Skill        100 'rodear'
+Skill        100 'rogar'
+Skill        100 'rompercodigo'
+Skill        100 'sabotear'
+Skill        100 'secuestrar'
+Skill        100 'seducir'
+Skill        100 'segundo ataque'
+Skill        100 'silencio'
+Skill        100 'sistemas de armas'
+Skill        100 'sistemas de naves'
+Skill        100 'sobornar'
+Skill        100 'split-s'
+Skill        100 'tercer ataque'
+Skill        100 'tomar_el_mando'
+Skill        100 'tonel'
+Skill        100 'torturar'
+Skill        100 'trepar'
+Skill        100 'verbichos'
+Skill        100 'verificarhuellas'
+Skill        100 'verlocalizadores'
+Skill        100 'vermascaras'
+Skill        100 'vermodulos'
+Weapon       100 'blasters'
+Weapon       100 'bowcasters'
+Weapon       100 'launchers'
+Weapon       100 'picas de fuerza'
+Weapon       100 'vibrohojas'
+Tongue       100 'binario'
+Fellow        Dylan Dylan~
+Killed       116 1
+Killed       1052 2
+Killed       1060 2
+MaxColors    90
+Colors       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+End
+
+#OBJECT
+Vnum         63
+Level        36
+End
+
+#OBJECT
+Vnum         62
+Level        36
+End
+
+#OBJECT
+Vnum         141
+Level        36
+End
+
+#OBJECT
+Vnum         137
+Level        36
+End
+
+#OBJECT
+Vnum         142
+Level        36
+End
+
+#OBJECT
+Vnum         131
+Level        36
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         50
+ExtraFlags   16
+WearLoc      18
+Level        36
+Values       12 1 4 6 1962 2000
+End
+
+#OBJECT
+Vnum         50
+ExtraFlags   16
+WearLoc      16
+Level        36
+Values       12 1 4 6 1980 2000
+End
+
+#OBJECT
+Vnum         121
+Level        36
+Values       -10 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         294
+Level        36
+End
+
+#OBJECT
+Vnum         138
+Level        36
+Values       1 0 0 0 0 0
+End
+
+#OBJECT
+Vnum         140
+Level        36
+End
+
+#END

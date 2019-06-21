@@ -1,0 +1,23 @@
+#OBJECT
+Vnum         137
+Room         138
+Rvnum        0
+Level        36
+End
+
+#OBJECT
+Count        4
+Vnum         137
+Room         138
+Rvnum        0
+Level        36
+End
+
+#OBJECT
+Vnum         136
+Room         138
+Rvnum        138
+Level        36
+End
+
+#END

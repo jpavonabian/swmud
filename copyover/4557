@@ -1,0 +1,19 @@
+#OBJECT
+Name         cuerpo Svenn~
+ShortDescr   el cuerpo de Svenn~
+Description  el cuerpo de Svenn yace aquí.~
+Vnum         10
+Room         4557
+Rvnum        4557
+Timer        2
+Cost         -9006
+Values       0 0 2 1 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         9013
+Level        30
+End
+
+#END

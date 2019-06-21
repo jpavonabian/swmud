@@ -1,0 +1,11 @@
+#SOCIAL
+Name        sonreir~
+CharNoArg   Sonríes feliz.~
+OthersNoArg $n sonríe feliz.~
+CharFound   Le sonríes.~
+VictFound   $n te sonríe.~
+CharAuto    Te sonríes.~
+OthersAuto  $n se sonríe.~
+End
+
+#END

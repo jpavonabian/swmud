@@ -1,0 +1,13 @@
+#OBJECT
+Name         corpse A Jail Guard~
+ShortDescr   the corpse of A Jail Guard~
+Description  The corpse of A Jail Guard lies here.~
+Vnum         10
+Room         4621
+Rvnum        4621
+Timer        6
+Cost         -4572
+Values       0 0 6 1 0 0
+End
+
+#END

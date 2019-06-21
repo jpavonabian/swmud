@@ -1,0 +1,73 @@
+#SHIP
+Shipfname	sol.bus~
+Autorecharge 0
+Autotrack 0
+Autospeed 0
+Autopilot 0
+VX 0
+VY 0
+VZ 0
+HX 0
+HY 0
+HZ 0
+JX 0
+JY 0
+JZ 0
+Shipstate 1
+EndShip
+
+#SHIP
+Shipfname	faun.bus~
+Autorecharge 0
+Autotrack 0
+Autospeed 0
+Autopilot 0
+VX 0
+VY 0
+VZ 0
+HX 0
+HY 0
+HZ 0
+JX 0
+JY 0
+JZ 0
+Shipstate 1
+EndShip
+
+#SHIP
+Shipfname	taw.bus~
+Autorecharge 0
+Autotrack 0
+Autospeed 0
+Autopilot 0
+VX 0
+VY 0
+VZ 0
+HX 0
+HY 0
+HZ 0
+JX 0
+JY 0
+JZ 0
+Shipstate 1
+EndShip
+
+#SHIP
+Shipfname	monir.bus~
+Autorecharge 0
+Autotrack 0
+Autospeed 0
+Autopilot 0
+VX 0
+VY 0
+VZ 0
+HX 0
+HY 0
+HZ 0
+JX 0
+JY 0
+JZ 0
+Shipstate 1
+EndShip
+
+#END

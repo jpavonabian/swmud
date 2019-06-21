@@ -1,0 +1,30 @@
+#CLAN
+Name         El Imperio~
+Shortname    imperio~
+Filename     empire.clan~
+Description  ~
+Leader       none~
+NumberOne    ~
+NumberTwo    ~
+PKills       0
+PDeaths      0
+MKills       3
+MDeaths      0
+Type         0
+Members      0
+Board        0
+Storeroom    0
+GuardOne     1154
+atwar	   La nueva república~
+GuardTwo     0
+PatrolOne    0
+PatrolTwo    0
+Acro         TGE~
+TrooperOne   20
+TrooperTwo   0
+Troops       4
+Funds        7773510
+Jail         1206
+End
+
+#END

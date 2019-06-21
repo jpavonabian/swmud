@@ -1,0 +1,154 @@
+#PLAYER
+Name         MeMNoCH~
+Version      5
+Comfreq      339.821~
+Sex          0
+Race         21
+MainAbility  8
+SecondAbility  0
+Languages    2049 2048
+Toplevel     1
+Pheight      0
+Build        6
+Played       4896
+Ship            ~
+ShipNum         0
+Room         1058
+HpManaMove   500 500 0 0 1000 1000
+Force        0 0 0 0
+ForceControl 0
+ForceSense   0
+ForceAlter   0
+ForceChance   0
+ForceId      0
+ForceAlign   0
+ForceConverted   0
+ForceType      0
+ForceLvlStatus 0
+ForceSkill   0 0
+ForceSkill   1 0
+ForceSkill   2 0
+ForceSkill   3 0
+ForceSkill   4 0
+ForceSkill   5 0
+ForceSkill   6 0
+ForceSkill   7 0
+ForceSkill   8 0
+ForceSkill   9 0
+ForceSkill   10 0
+ForceSkill   11 0
+ForceSkill   12 0
+ForceSkill   13 0
+ForceSkill   14 0
+ForceSkill   15 0
+ForceSkill   16 0
+ForceSkill   17 0
+ForceSkill   18 0
+ForceSkill   19 0
+ForceSkill   20 0
+ForceSkill   21 0
+ForceSkill   22 0
+ForceSkill   23 0
+Gold         4000
+Bank         6000
+Salary       0
+Ability        0 1 0 0
+Ability        1 1 0 0
+Ability        2 1 0 0
+Ability        3 1 0 0
+Ability        4 1 0 0
+Ability        5 1 0 0
+Ability        6 0 0 0
+Ability        7 1 0 0
+Ability        8 1 0 0
+Ability        9 1 0 0
+Act          536872552
+AffectedBy   -2147483648
+Position     8
+SavingThrows 0 0 0 0 0
+Alignment    0
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Rppoints   0
+Mentalstate  0
+Password     ¢Ωÿur&’ËUI©à~
+Lastplayed   1518667907
+Title         MeMNoCH the Droide~
+AuthedBy     Grotans~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+Flags        4128
+MKills       0
+MDeaths      0
+AttrPerm     12 18 18 14 14 16 15
+AttrMod      0 0 0 0 0 0 0
+Condition    0 48 40 10
+Site         static.masmovil.com
+Skill        25 'navegacion'
+Skill        25 'naves pequenyas'
+Skill        25 'otear'
+Skill        25 'sistemas de naves'
+Tongue       100 'binario'
+MaxColors    90
+Colors       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+End
+
+#OBJECT
+Vnum         121
+Values       -10 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         122
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         123
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         124
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         125
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         126
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         127
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         128
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         129
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         131
+Values       12 -10 0 0 0 0
+End
+
+#OBJECT
+Vnum         132
+Values       20 0 0 0 0 0
+End
+
+#END

@@ -1,0 +1,13 @@
+#OBJECT
+Name         cuerpo A miner~
+ShortDescr   el cuerpo de A miner~
+Description  El cuerpo de A miner está aquí tirado.~
+Vnum         10
+Room         9525
+Rvnum        9525
+Timer        6
+Cost         -9505
+Values       0 0 6 1 0 0
+End
+
+#END

@@ -1,0 +1,11 @@
+#OBJECT
+ShortDescr   taparrabos~
+Description  Un taparrabos ha sido tirado aquí~
+Vnum         135
+Room         131
+Rvnum        131
+Level        13
+Values       25 -15 0 0 0 0
+End
+
+#END

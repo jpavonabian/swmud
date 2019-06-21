@@ -1,0 +1,45 @@
+#OBJECT
+Name         corpse a begger~
+ShortDescr   the corpse of a begger~
+Description  El cuerpo de A begger yace aquí.~
+Vnum         10
+Room         205
+Rvnum        205
+Timer        5
+Cost         -210
+Values       0 0 5 1 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         202
+Level        1
+Values       3 3 0 0 0 0
+End
+
+#OBJECT
+Name         corpse a begger~
+ShortDescr   the corpse of a begger~
+Description  El cuerpo de A begger yace aquí.~
+Vnum         10
+Room         205
+Rvnum        205
+Timer        5
+Cost         -210
+Values       0 0 5 1 0 0
+End
+
+#OBJECT
+Nest         1
+Vnum         3
+Level        1
+End
+
+#OBJECT
+Nest         1
+Vnum         202
+Level        1
+Values       3 3 0 0 0 0
+End
+
+#END

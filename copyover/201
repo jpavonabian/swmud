@@ -1,0 +1,13 @@
+#OBJECT
+Name         cuerpo an astromech droid~
+ShortDescr   el cuerpo de an astromech droid~
+Description  Los destrozados restos de an astromech droid están aquí.~
+Vnum         9
+Room         201
+Rvnum        201
+Timer        5
+Cost         -209
+Values       0 0 5 1 0 0
+End
+
+#END

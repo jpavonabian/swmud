@@ -1,0 +1,173 @@
+#PLAYER
+Name         Xizor~
+Version      5
+Comfreq      353.632~
+Sex          1
+Race         21
+MainAbility  3
+SecondAbility  7
+Languages    -1 2048
+Toplevel     34
+Pheight      0
+Build        7
+Played       74903
+Ship            ~
+ShipNum         0
+Room         1050
+HpManaMove   500 500 0 0 1000 1000
+Force        0 0 0 0
+ForceControl 0
+ForceSense   0
+ForceAlter   0
+ForceChance   0
+ForceId      0
+ForceAlign   0
+ForceConverted   0
+ForceType      0
+ForceLvlStatus 0
+ForceSkill   0 0
+ForceSkill   1 0
+ForceSkill   2 0
+ForceSkill   3 0
+ForceSkill   4 0
+ForceSkill   5 0
+ForceSkill   6 0
+ForceSkill   7 0
+ForceSkill   8 0
+ForceSkill   9 0
+ForceSkill   10 0
+ForceSkill   11 0
+ForceSkill   12 0
+ForceSkill   13 0
+ForceSkill   14 0
+ForceSkill   15 0
+ForceSkill   16 0
+ForceSkill   17 0
+ForceSkill   18 0
+ForceSkill   19 0
+ForceSkill   20 0
+ForceSkill   21 0
+ForceSkill   22 0
+ForceSkill   23 0
+Gold         19774760
+Bank         0
+Salary       0
+Ability        0 30 422036 0
+Ability        1 1 0 0
+Ability        2 1 0 0
+Ability        3 1 0 0
+Ability        4 1 0 0
+Ability        5 1 0 0
+Ability        6 0 0 0
+Ability        7 30 438500 0
+Ability        8 1 0 0
+Ability        9 30 420500 0
+Act          570440264
+AffectedBy   -2147483648
+Position     8
+SavingThrows 0 0 0 0 0
+Alignment    -10
+Glory        0
+MGlory       0
+Hitroll      0
+Damroll      0
+Armor        100
+Rppoints   0
+Mentalstate  0
+Password     Ovëy±»‡ïå¶·„š~
+Lastplayed   1519746834
+Title         Xizor el Droide~
+AuthedBy     Grotans~
+Addiction    0 0 0 0 0 0 0 0 0 0
+Druglevel    0 0 0 0 0 0 0 0 0 0
+WizInvis     34
+Flags        0
+MKills       2
+MDeaths      0
+AttrPerm     9 11 10 12 5 15 11
+AttrMod      0 0 0 0 0 0 0
+Condition    0 48 48 44
+Site         r167-61-118-100.dialup.adsl.anteldata.net.uy
+Skill        100 'ambidiestro'
+Skill        100 'asignarpiloto'
+Skill        100 'asir fuerte'
+Skill        100 'ataques_precisos'
+Skill        100 'auxiliar'
+Skill        100 'cabezazo'
+Skill        100 'cegar'
+Skill        100 'comprobarbichos'
+Skill        100 'comprobarlocalizadores'
+Skill        100 'comunicadores'
+Skill        100 'danyo incrementado'
+Skill        100 'danyo_mejorado'
+Skill        100 'desactivarnave'
+Skill        100 'desarmar'
+Skill        100 'desinstalarmodulo'
+Skill        100 'disparar'
+Skill        100 'encarcelar'
+Skill        100 'espiar'
+Skill        100 'esquivar'
+Skill        100 'fabricarcomunicador'
+Skill        100 'fabricarcontenedor'
+Skill        100 'fabricardatapad'
+Skill        100 'fabricarlocalizador'
+Skill        100 'fabricarmodulo'
+Skill        100 'furia'
+Skill        100 'golpe_multiple'
+Skill        100 'hackearbanco'
+Skill        100 'indagar'
+Skill        100 'instalarmodulo'
+Skill        100 'lanzar'
+Skill        100 'mantenimiento'
+Skill        100 'minar'
+Skill        100 'montar'
+Skill        100 'navegacion'
+Skill        100 'naves pequenyas'
+Skill        100 'otear'
+Skill        100 'patada'
+Skill        100 'plantarlocalizador'
+Skill        100 'punyetazo'
+Skill        100 'quitarbicho'
+Skill        100 'quitarlocalizadores'
+Skill        100 'repararnave'
+Skill        100 'rescatar'
+Skill        100 'rogar'
+Skill        100 'rompercodigo'
+Skill        100 'sabotear'
+Skill        100 'segundo ataque'
+Skill        100 'sistemas de naves'
+Skill        100 'tercer ataque'
+Skill        100 'verificarhuellas'
+Skill        100 'verlocalizadores'
+Skill        100 'vermodulos'
+Weapon       100 'blasters'
+Weapon       100 'bowcasters'
+Weapon       100 'picas de fuerza'
+Weapon       100 'vibrohojas'
+Tongue       100 'binario'
+Killed       1060 1
+Killed       126 1
+MaxColors    90
+Colors       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+End
+
+#OBJECT
+Vnum         63
+Level        34
+End
+
+#OBJECT
+Vnum         19026
+WearLoc      16
+Level        34
+Values       12 25 40 6 735 750
+End
+
+#OBJECT
+Vnum         45
+WearLoc      17
+Level        34
+Values       100 200 0 0 0 0
+End
+
+#END

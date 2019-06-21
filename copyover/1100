@@ -1,0 +1,13 @@
+#OBJECT
+Name         cuerpo Un guardia imperial~
+ShortDescr   el cuerpo de Un guardia imperial~
+Description  el cuerpo de Un guardia imperial yace aquí.~
+Vnum         10
+Room         1100
+Rvnum        1100
+Timer        2
+Cost         -1154
+Values       0 0 2 1 0 0
+End
+
+#END

@@ -1,0 +1,25 @@
+#OBJECT
+Name         corpse a female citizen~
+ShortDescr   the corpse of a female citizen~
+Description  El cuerpo de A female citizen yace aquí.~
+Vnum         10
+Room         1060
+Rvnum        1060
+Timer        5
+Cost         -1060
+Values       0 0 5 1 0 0
+End
+
+#OBJECT
+Name         corpse a female citizen~
+ShortDescr   the corpse of a female citizen~
+Description  The corpse of a female citizen lies here.~
+Vnum         10
+Room         1060
+Rvnum        0
+Timer        6
+Cost         -1060
+Values       0 0 6 1 0 0
+End
+
+#END
